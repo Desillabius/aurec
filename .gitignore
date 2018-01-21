@@ -10,8 +10,8 @@ wp-config.php
 .idea
 .vscode
 .vscode
-.sublime-project
-.sublime-workspace
+*.sublime-project
+*.sublime-workspace
 
 # OSX
 *.DS_Store
