@@ -1,6 +1,7 @@
-﻿#   a u r e c 
+﻿#   a u r e c 
 
-Aurec website usgin Wordpressify
+
+Aurec website using Wordpressify
 
 http://www.wordpressify.co/ 
 
