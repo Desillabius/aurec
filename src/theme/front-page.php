@@ -1,7 +1,11 @@
 <?php get_header(); ?>
+<section class="hero__wrapper">
+	<img class="lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/hero/test.jpg" alt="Au.Rec - Metalli Preziosi">
+</section>
 <section class="headings" id="mockup">
 	<main>
-		<h1 data-aos="slow-title">A build ystem designed to automate your WordPress development workflow.</h1>
+		<!-- <h1 data-aos="slow-title">A build ystem designed to automate your WordPress development workflow.</h1> -->
+		<!-- <h2>Sottotitolo</h2> -->
 		<div class="codecolorer-container javascript solarized-dark home" data-aos="slow-up">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/browser.svg" alt="Browser 🌍" class="mockup">
 			<div class="javascript codecolorer">

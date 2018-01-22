@@ -1,5 +1,5 @@
 <footer class="footer">
-	<section class="categories">
+	<!-- <section class="categories">
 		<ul>
 			<?php 
 				$get_parent_cats = array(
@@ -50,7 +50,7 @@
 				} //end of categories logic 
 			?>
 		</ul>
-	</section>
+	</section> -->
 
 	<section class="riangle">
 		<a href="https://www.riangle.com/" target="_blank">

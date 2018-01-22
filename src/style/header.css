@@ -3,14 +3,15 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: var(--dark-blue);
-	overflow: hidden;
-	border-bottom: solid 1px var(--medium-blue);
+	/*background: var(--dark-blue);*/
+	background-color: rgba(255,255,255,0);
+	/*overflow: hidden;*/
+	/*border-bottom: solid 1px var(--medium-blue);*/
 	z-index: 100;
-	transition: all 1s ease;
-	height: 100vh;
+	transition: all .5s ease;
+	height: 100px;
 
-	& .inner-content {
+	/*& .inner-content {
 		@apply --maxWidth;
 		position: relative;
 		height: 100%;
@@ -101,10 +102,10 @@
 				}
 			}
 		}
-	}
+	}*/
 }
 
-.reset-delay {
+/*.reset-delay {
 	transition-delay: 0s !important;
 }
 
@@ -134,4 +135,4 @@
 		height: 100%;
 		display: block;
 	}
-}
+}*/

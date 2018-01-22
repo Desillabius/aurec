@@ -8,10 +8,11 @@ Version: 1.0
 Tags: responsive, clean, minimal, modern, documentation
 */
 
-@import '../../node_modules/normalize.css/normalize.css';
-@import '../../node_modules/aos/dist/aos.css';
+/*@import '../../node_modules/normalize.css/normalize.css';*/
+/*@import '../../node_modules/aos/dist/aos.css';*/
+@import 'normalize';
 @import 'variables';
-@import 'nprogress';
+/*@import 'nprogress';*/
 @import 'fonts';
 @import 'button';
 @import 'inputs';
@@ -21,8 +22,8 @@ Tags: responsive, clean, minimal, modern, documentation
 @import 'menu';
 @import 'front-page';
 @import 'site-content';
-@import 'colorcode';
-@import 'search';
+/*@import 'colorcode';*/
+/*@import 'search';*/
 @import 'sidebar';
 @import 'not-found';
 @import 'footer';

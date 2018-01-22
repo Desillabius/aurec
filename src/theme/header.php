@@ -18,18 +18,24 @@
 
 <body <?php body_class(); ?>>
 <header id="header" class="header">
-	<div class="inner-content">
-		<a href="<?php echo home_url(); ?>" class="logo">
+	<!-- <div class="inner-content"> -->
+		<!-- <a href="<?php echo home_url(); ?>" class="logo">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo 🌈">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/logo-bright.svg" alt="Logo 🌈" class="bright">
-		</a>
+		</a> -->
 
-		<nav class="navigation">
-			<a href="https://github.com/luangjokaj/wordpressify" target="_blank" class="github">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/github.svg" alt="GitHub 🝓">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/github-bright.svg" alt="GitHub 🝓" class="bright">
-			</a>
-		</nav>
-	</div>
+		<div id="navbar-toggle" class="navbar-toggle">
+	        <div class='bar1'></div>
+	        <div class='bar2'></div>
+	        <div class='bar3'></div>
+	    </div>
+	    <div class="nav-wrapper">
+			<nav class="navigation" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+				<a href="https://github.com/luangjokaj/wordpressify" target="_blank" class="github">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/github.svg" alt="GitHub 🝓">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/github-bright.svg" alt="GitHub 🝓" class="bright">
+				</a>
+			</nav>
+		</div>
+	<!-- </div> -->
 </header>
-<?php edit_post_link('Edit', '<p class="edit-button">', '</p>'); ?>
