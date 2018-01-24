@@ -144,10 +144,10 @@ gulp.task('build-dev', [
 ], function () {
 	connect.server({
 		base: 'build/wordpress',
-		port: '3020'
+		// port: '3020'
 	}, function () {
 		browserSync({
-			proxy: '127.0.0.1:3020'
+			proxy: '127.0.0.1/Aurec-WP/build/wordpress'
 		});
 	});
 });

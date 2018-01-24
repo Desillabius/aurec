@@ -12,6 +12,7 @@ Tags: responsive, clean, minimal, modern, documentation
 /*@import '../../node_modules/aos/dist/aos.css';*/
 @import 'normalize';
 @import 'variables';
+@import 'animations';
 /*@import 'nprogress';*/
 @import 'fonts';
 @import 'button';
