@@ -11,10 +11,16 @@ html, body {
 	background: var(--white);
 	color: var(--primary-color);
 	font-family: var(--font-text);
+	font-size: var(--medium-font-size);
+	line-height: var(--medium-line-height);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	height: 100%;
 	box-sizing: inherit;
+	@media (--screen-phablet) {
+		font-size: var(--default-font-size);
+		line-height: var(--default-line-height);
+	}
 }
 
 /*body {
@@ -40,32 +46,30 @@ a, button {
 	}
 }
 
-p {
+/*p {
 	font-size: var(--default-font-size);
 	line-height: var(--default-line-height);
-}
-
-h1, h2, h3 {
-	font-family: var(--font-text-condensed);
-	color: var(--secondary-color);
-	box-sizing: border-box;
-}
+}*/
 
 h1 {
+	font-family: var(--font-text-condensed);
+	color: var(--secondary-color);
 	font-size: var(--h1-font-size);
 	line-height: var(--h1-line-height);
 
-	@media (--screen-mobile) {
+	@media (--screen-phablet) {
 		font-size: var(--h1-font-size-mobile);
 		line-height: var(--h1-line-height-mobile);
 	}
 }
 
 h2 {
+	font-family: var(--font-text);
+	color: var(--secondary-color);
 	font-size: var(--h2-font-size);
 	line-height: var(--h2-line-height);
 
-	@media (--screen-mobile) {
+	@media (--screen-phablet) {
 		font-size: var(--h2-font-size-mobile);
 		line-height: var(--h2-line-height-mobile);
 	}
@@ -75,8 +79,47 @@ h3 {
 	font-size: var(--h3-font-size);
 	line-height: var(--h3-line-height);
 
-	@media (--screen-mobile) {
+	@media (--screen-phablet) {
 		font-size: var(--h3-font-size-mobile);
 		line-height: var(--h3-line-height-mobile);
 	}
+}
+
+h4 {
+	font-family: var(--font-text-condensed);
+	font-size: var(--h4-font-size);
+	line-height: var(--h4-line-height);
+
+	@media (--screen-phablet) {
+		font-size: var(--h4-font-size-mobile);
+		line-height: var(--h4-line-height-mobile);
+	}
+}
+
+h5 {
+	font-family: var(--font-text-condensed);
+	font-size: var(--h5-font-size);
+	line-height: var(--h5-line-height);
+
+	@media (--screen-phablet) {
+		font-size: var(--h5-font-size-mobile);
+		line-height: var(--h5-line-height-mobile);
+	}
+}
+
+.text-grey {
+	color: var(--primary-color);
+}
+
+.grey-bg {
+	background-color: #EDEAE5;
+}
+
+.cf {
+    &:before,
+    &:after {
+        content: " ";
+        clear: both;
+        display: table;
+    }
 }

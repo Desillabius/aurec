@@ -4,16 +4,44 @@
 		"selected_items":
 		[
 			[
+				"styl",
+				"style\tAttr"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
 				"bo",
 				"box-sizing"
 			],
 			[
 				"padding",
 				"padding-right"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"font",
@@ -30,60 +58,61 @@
 			[
 				"marign",
 				"margin-bottom"
-			],
-			[
-				"a",
-				"a\t<a>"
-			],
-			[
-				"text",
-				"text-align"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/theme/header.php",
-			"settings":
-			{
-				"buffer_size": 1622,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/theme/front-page.php",
 			"settings":
 			{
-				"buffer_size": 4102,
+				"buffer_size": 3301,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/style/style.css",
+			"file": "src/theme/img/icons/consulenza.svg",
 			"settings":
 			{
-				"buffer_size": 705,
+				"buffer_size": 964,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/style/normalize.css",
+			"file": "src/js/scroll-to.js",
 			"settings":
 			{
-				"buffer_size": 2291,
+				"buffer_size": 201,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/style/header.css",
+			"file": "src/style/front-page.css",
 			"settings":
 			{
-				"buffer_size": 2301,
+				"buffer_size": 6171,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/style/variables.css",
+			"settings":
+			{
+				"buffer_size": 2382,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/style/fonts.css",
+			"settings":
+			{
+				"buffer_size": 270,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -92,16 +121,7 @@
 			"file": "src/style/globals.css",
 			"settings":
 			{
-				"buffer_size": 1410,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/style/menu.css",
-			"settings":
-			{
-				"buffer_size": 1100,
+				"buffer_size": 2192,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -114,10 +134,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 98.0,
+		"last_filter": "pack",
 		"selected_items":
 		[
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -127,7 +151,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 432.0
+		"width": 576.0
 	},
 	"console":
 	{
@@ -151,24 +175,34 @@
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/js",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style",
-		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme"
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/tools"
 	],
 	"file_history":
 	[
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/js/scroll-to.js",
+		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/src/scss/_general.scss",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/fonts.css",
+		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/shared/homepage/latest-docs.html",
+		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/shared/homepage/slider.html",
+		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/src/scss/_slider.scss",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/header.php",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/animations.css",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/header.css",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/globals.css",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/gulpfile.js",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/menu.css",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/normalize.css",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/style.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/.gitignore",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/README.md",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/src/scss/_menu-header.scss",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/src/scss/_normalize.scss",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/grid.css",
-		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/src/scss/_general.scss",
-		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/style.css",
-		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/header.css",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/shared/header.html",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/index.php",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/front-page.php",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/footer.php",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/functions.php",
-		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/gulpfile.js",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/footer.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/not-found.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/sidebar.css",
@@ -176,11 +210,8 @@
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/colorcode.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/site-content.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/front-page.css",
-		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/menu.css",
-		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/globals.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/inputs.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/button.css",
-		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/fonts.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/nprogress.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/variables.css",
 		"/C/Users/giuli/Desktop/rokophoto-lite/header.php",
@@ -188,7 +219,6 @@
 		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/httpserver/apache2418vc11x86x170304020622/conf/httpd.conf",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/js/animations.js",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/js/header.js",
-		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/header.php",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/js/documentation.js",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/js/grid.js",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/js/loading.js",
@@ -230,10 +260,8 @@
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/src/assets/images/icons/external-link.svg",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/src/js/mappa.js",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/src/scss/_news-filters.scss",
-		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/src/scss/_slider.scss",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/src/js/slider-image.js",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/src/js/init-lazyframe.js",
-		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/shared/homepage/slider.html",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/dove-siamo.html",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/il-gruppo.html",
 		"/C/Users/giuli/Desktop/tutti i siti ftp.xml",
@@ -263,7 +291,6 @@
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/shared/il-gruppo/il-gruppo-content.html",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/shared/il-gruppo/sidebar.html",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/shared/homepage/news-wall.html",
-		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/shared/homepage/latest-docs.html",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/shared/news/detail/news-body.html",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/shared/meta.html",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/.git/config",
@@ -272,7 +299,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -294,6 +321,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"anchor-",
+			"@media (--screen-mobile)",
+			"1;",
+			"h4",
+			"h3",
+			"p",
+			"svg",
+			"section",
+			"backg",
+			"ease-in",
+			"$cb1",
+			"//",
 			"img",
 			"front",
 			"local",
@@ -375,53 +414,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/theme/header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1622,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								688,
-								688
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 375.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "src/theme/front-page.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4102,
+						"buffer_size": 3301,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								229,
-								229
+								2863,
+								2863
 							]
 						],
 						"settings":
@@ -430,32 +440,66 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1171.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/style/style.css",
+					"buffer": 1,
+					"file": "src/theme/img/icons/consulenza.svg",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 705,
+						"buffer_size": 964,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								75,
-								75
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "src/js/scroll-to.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -466,27 +510,28 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/style/normalize.css",
+					"file": "src/style/front-page.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2291,
+						"buffer_size": 6171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2291,
-								2291
+								2138,
+								2138
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 14541.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 2700.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -494,19 +539,19 @@
 				},
 				{
 					"buffer": 4,
-					"file": "src/style/header.css",
+					"file": "src/style/variables.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2301,
+						"buffer_size": 2382,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								266,
-								266
+								478,
+								478
 							]
 						],
 						"settings":
@@ -523,25 +568,24 @@
 				},
 				{
 					"buffer": 5,
-					"file": "src/style/globals.css",
+					"file": "src/style/fonts.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1410,
+						"buffer_size": 270,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								220,
-								220
+								86,
+								86
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -552,19 +596,19 @@
 				},
 				{
 					"buffer": 6,
-					"file": "src/style/menu.css",
+					"file": "src/style/globals.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1100,
+						"buffer_size": 2192,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								883,
-								883
+								1805,
+								1845
 							]
 						],
 						"settings":
@@ -573,7 +617,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 750.0,
+						"translation.y": 1950.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -599,11 +643,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.508870490834,
 			1.0
 		],
 		"rows":
