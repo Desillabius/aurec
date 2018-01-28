@@ -20,7 +20,7 @@ Tags: responsive, clean, minimal, modern, documentation
 @import 'globals';
 @import 'header';
 @import 'grid';
-@import 'menu';
+/*@import 'menu';*/
 @import 'front-page';
 @import 'site-content';
 /*@import 'colorcode';*/

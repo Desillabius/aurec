@@ -1,6 +1,6 @@
 jQuery(function() {
 	new TradingView.MediumWidget({
-	"container_id": "trading-view-ita",
+	"container_id": "trading-view",
 	"symbols": [
 		[
 			"Oro",

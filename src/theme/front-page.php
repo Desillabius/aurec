@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section>
-	<div class="hero__wrapper animate-item" data-animation="zoom-in">
+	<div class="hero__wrapper animate-item" data-animation="zoom-in-hero">
 		<div class="hero__image lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/hero/test.jpg" alt="Au.Rec - Metalli Preziosi" 
 			data-start="transform: translateY(0px);"
 			data-500-start="transform: translateY(150px);"
@@ -9,10 +9,10 @@
 </section>
 <section class="grey-bg">
 	<div class="wrapper title__wrapper">
-		<h2>Recupera, ricicla, trasforma</h2>
-		<p class="gold-subtitle">AU.REC, in collaborazione con BM Valenza, si occupa del recupero e della raffinazione di metalli preziosi. <br>
+		<h2 class="animate-item" data-animation="come-in">Recupera, ricicla, trasforma</h2>
+		<p class="gold-subtitle animate-item" data-animation="come-in">AU.REC, in collaborazione con BM Valenza, si occupa del recupero e della raffinazione di metalli preziosi. <br>
 		Un progetto nato per mettere in contatto i professionisti del settore dentistico e odontotecnico con i banchi di fusione della città di Valenza, garantendo sempre una valutazione precisa e trasparente.</p>
-		<div class="anchors__wrapper">
+		<div class="anchors__wrapper animate-item" data-animation="come-in">
 			<div class="anchor" data-anchor="#anchor-1">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Consulenza tecnica">
 				<h5>Consulenza tecnica</h5>
@@ -33,7 +33,7 @@
 	</div>
 </section>
 <section>
-	<div class="wrapper cta__wrapper">
+	<div class="wrapper cta__wrapper animate-item" data-animation="come-in">
 		<div class="cta__left">
 			<h2 class="text-grey">Trova la soluzione su misura per le tue esigenze.</h2>
 			<p>Con un’intera gamma di servizi, AU.REC ha sempre una risposta su misura per per le tue esigenze.</p>
@@ -52,7 +52,7 @@
 			data-200-bottom="transform: translateY(-60px);"
 			data-anchor-target="#anchor-1"></div>
 		</div>
-		<div class="text__wrapper">
+		<div class="text__wrapper animate-item" data-animation="come-in">
 			<div class="text__inner">
 				<h3 class="gold-title">Consulenza tecnica</h3>
 				<p>AU.REC offre diverse opzioni di valutazione in base al tempo disponibile  e alla quantità di materiali da analizzare. <br>
@@ -61,7 +61,7 @@
 		</div>
 	</div>
 	<div id="anchor-2" class="box__wrapper">
-		<div class="text__wrapper">
+		<div class="text__wrapper animate-item" data-animation="come-in">
 			<div class="text__inner">
 				<h3 class="gold-title">Valutazione materiali e screening spettrometrico</h3>
 				<p>Gli esperti AU.REC forniscono una valutazione accurata e puntuale del calcolo delle millesimazioni e della caratura dei metalli nobili come argento, oro, platino e palladio contenuti in scarti di lavorazione odontotecnica, protesi dentarie dismesse e materiali di oreficeria.</p>
@@ -83,7 +83,7 @@
 			data-200-bottom="transform: translateY(-60px);"
 			data-anchor-target="#anchor-3"></div>
 		</div>
-		<div class="text__wrapper">
+		<div class="text__wrapper animate-item" data-animation="come-in">
 			<div class="text__inner">
 				<h3 class="gold-title">Recupero leghe e consulenza fiscale</h3>
 				<p>Il consulente AU.REC offre una valutazione e una quantificazione accurata dei metalli riciclabili tramite fusione e individua un piano di recupero personalizzato.</p>
@@ -91,7 +91,7 @@
 		</div>
 	</div>
 	<div id="anchor-4" class="box__wrapper">
-		<div class="text__wrapper">
+		<div class="text__wrapper animate-item" data-animation="come-in">
 			<div class="text__inner">
 				<h3 class="gold-title">Consulenza su investimenti in metallo e diamanti</h3>
 				<p>La gamma dei servizi AU.REC si adatta alle esigenze specifiche di ogni cliente offrendo diverse opzioni di valutazione e investimento dei materiali.</p>
@@ -107,14 +107,14 @@
 	</div>
 </main>
 <section class="grey-bg">
-	<div class="wrapper title__wrapper">
-		<h3 class="gold-title">Quotazioni</h3>
-		<p class="gold-subtitle">Scopri le quotazioni dei metalli preziosi in tempo reale.</p>
+	<div class="wrapper title__wrapper ">
+		<h3 class="gold-title animate-item" data-animation="come-in">Quotazioni</h3>
+		<p class="gold-subtitle animate-item" data-animation="come-in">Scopri le quotazioni dei metalli preziosi in tempo reale.</p>
 	</div>
 </section>
 <section>
-	<div class="wrapper">
-		<div id="trading-view-ita"></div>
+	<div class="wrapper animate-item" data-animation="come-in">
+		<div id="trading-view"></div>
 	</div>
 </section>
 <?php get_footer(); ?>

@@ -4,7 +4,7 @@
 
 	&::selection {
 		color: var(--white);
-		background: var(--medium-blue);
+		background: var(--secondary-color);
 	}
 }
 html, body {
@@ -44,6 +44,10 @@ a, button {
 	&:hover {
 		color: color(var(--primary-color) lightness(40%));
 	}
+}
+
+a[href^="mailto:"] {
+	text-decoration: underline;
 }
 
 /*p {

@@ -36,13 +36,13 @@
 /*// LEFT*/
 .come-in-left {
     transform: translate3d(-25px,0,0);
-    animation: comeInLateral 1s ease-out forwards;
+    animation: comeInLateral 1.5s ease-out forwards;
 }
 
 /*// RIGHT*/
 .come-in-right {
     transform: translate3d(25px,0,0);
-    animation: comeInLateral 1s ease-out forwards;
+    animation: comeInLateral 1.5s ease-out forwards;
 }
 
 @keyframes comeInLateral {
@@ -55,13 +55,18 @@
 /*// ZOOM EFFECT*/
 .zoom-out {
     transform: scale(1.05, 1.05);
-    animation: zoom 1s ease-out forwards .5s;
+    animation: zoom 1.5s ease-out forwards .5s;
     overflow: hidden;
 }
 
 .zoom-in {
     transform: scale(.95, .95);
-    animation: zoom 1s ease-out forwards .5s;
+    animation: zoom 1.5s ease-out forwards .5s;
+}
+
+.zoom-in-hero {
+    transform: scale(.95, .95);
+    animation: zoom 1.5s ease-out forwards;
 }
 
 @keyframes zoom {
@@ -79,7 +84,7 @@
 
 .come-in {
     transform: translate3d(0,25px,0);
-    animation: comeIn 1s ease-out forwards;
+    animation: comeIn 1.5s ease-out forwards;
 }
 
 .come-in-fast {
@@ -104,7 +109,7 @@
 
 .come-in-footer {
     transform: translate3d(0,50px,0);
-    animation: comeIn 1s ease-out forwards;
+    animation: comeIn 1.5s ease-out forwards;
 }
 
 /*// COME FROM TOP*/
@@ -232,6 +237,10 @@
     &.animate-item--delay10 {
         animation-delay: 2s;
     }
+}
+
+.zoom-in-hero:nth-of-type(1) {
+    animation-delay: .5s;
 }
 
 /*// === end // ANIMATION DELAY ===*/
