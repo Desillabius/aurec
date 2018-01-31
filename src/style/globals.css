@@ -23,19 +23,6 @@ html, body {
 	}
 }
 
-/*body {
-	box-sizing: border-box;
-	padding-top: var(--push-top-desktop);
-
-	@media (--screen-tablet) {
-		padding-top: var(--push-top-tablet);
-	}
-
-	@media (--screen-mobile) {
-		padding-top: var(--push-top-mobile);
-	}
-}*/
-
 a, button {
 	text-decoration: none;
 	transition: all .3s ease;
@@ -49,11 +36,6 @@ a, button {
 a[href^="mailto:"] {
 	text-decoration: underline;
 }
-
-/*p {
-	font-size: var(--default-font-size);
-	line-height: var(--default-line-height);
-}*/
 
 h1 {
 	font-family: var(--font-text-condensed);

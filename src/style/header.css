@@ -64,6 +64,9 @@
     transition: opacity .5s ease-in-out, transform .5s ease-in-out;
     transform: scale(1.05);
     opacity: 0;
+    @media (--screen-phablet) {
+    	bottom: 0;
+    }
     &.is-open {
         pointer-events: auto;
         transform: scale(1);
@@ -78,9 +81,18 @@
         flex-wrap: nowrap;
         align-items: stretch;
         align-content: stretch;
+        @media (--screen-phablet) {
+        	height: 100%;
+        	margin-top: 0;
+        	justify-content: center;
+        }
         & li {
             padding: 10px;
             position: relative;
+            @media (--screen-phablet) {
+            	font-size: 20px;
+            	padding: 20px 10px;
+            }
         }
     }
 }

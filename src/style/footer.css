@@ -20,8 +20,17 @@
 	& .footer__column {
 		width: 33.33%;
 		border-right: 2px solid var(--background-dividers);
+		@media (--screen-phablet) {
+			width: 100%;
+			border-right: none;
+			border-bottom: 1px solid var(--background-dividers);
+			padding: 20px 0;
+		}
 		&:last-child {
 			border-right: none;
+			@media (--screen-phablet) {
+				border-bottom: none;
+			}
 		}
 	}
 	& a {

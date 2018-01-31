@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section>
 	<div class="hero__wrapper animate-item" data-animation="zoom-in-hero">
-		<div class="hero__image lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/hero/test.jpg" alt="Au.Rec - Metalli Preziosi" 
+		<div class="hero__image lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/hero/AUREC-precious-metals.jpg" alt="Au.Rec - Metalli Preziosi" 
 			data-start="transform: translateY(0px);"
 			data-500-start="transform: translateY(150px);"
 			data-anchor-target=".hero__wrapper"></div>
@@ -46,7 +46,7 @@
 <main>
 	<div id="anchor-1" class="box__wrapper">
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/placeholder.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/consulenza-tecnica.jpg" alt="Consulenza tecnica" 
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"
@@ -54,6 +54,7 @@
 		</div>
 		<div class="text__wrapper animate-item" data-animation="come-in">
 			<div class="text__inner">
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Consulenza tecnica">
 				<h3 class="gold-title">Consulenza tecnica</h3>
 				<p>AU.REC offre diverse opzioni di valutazione in base al tempo disponibile  e alla quantità di materiali da analizzare. <br>
 				Basta un semplice appuntamento e un esperto valuterà il materiale direttamente presso lo studio o il laboratorio.</p>
@@ -63,12 +64,13 @@
 	<div id="anchor-2" class="box__wrapper">
 		<div class="text__wrapper animate-item" data-animation="come-in">
 			<div class="text__inner">
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Consulenza tecnica">
 				<h3 class="gold-title">Valutazione materiali e screening spettrometrico</h3>
 				<p>Gli esperti AU.REC forniscono una valutazione accurata e puntuale del calcolo delle millesimazioni e della caratura dei metalli nobili come argento, oro, platino e palladio contenuti in scarti di lavorazione odontotecnica, protesi dentarie dismesse e materiali di oreficeria.</p>
 			</div>
 		</div>
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/placeholder.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/valutazioni-materiali.jpg" alt="Consulenza tecnica" 
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"
@@ -77,7 +79,7 @@
 	</div>
 	<div id="anchor-3" class="box__wrapper">
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/placeholder.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/recupero-leghe.jpg" alt="Consulenza tecnica" 
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"
@@ -85,6 +87,7 @@
 		</div>
 		<div class="text__wrapper animate-item" data-animation="come-in">
 			<div class="text__inner">
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Consulenza tecnica">
 				<h3 class="gold-title">Recupero leghe e consulenza fiscale</h3>
 				<p>Il consulente AU.REC offre una valutazione e una quantificazione accurata dei metalli riciclabili tramite fusione e individua un piano di recupero personalizzato.</p>
 			</div>
@@ -93,12 +96,13 @@
 	<div id="anchor-4" class="box__wrapper">
 		<div class="text__wrapper animate-item" data-animation="come-in">
 			<div class="text__inner">
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Consulenza tecnica">
 				<h3 class="gold-title">Consulenza su investimenti in metallo e diamanti</h3>
 				<p>La gamma dei servizi AU.REC si adatta alle esigenze specifiche di ogni cliente offrendo diverse opzioni di valutazione e investimento dei materiali.</p>
 			</div>
 		</div>
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/placeholder.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/consulenza-investimenti.jpg" alt="Consulenza tecnica" 
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"
