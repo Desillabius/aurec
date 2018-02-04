@@ -25,16 +25,24 @@
 .title__wrapper {
 	text-align: center;
 }
-.gold-subtitle {
-	font-size: var(--medium-font-size);
-	line-height: var(--medium-line-height);
-	color: var(--secondary-color);
+.quotazioni-svg {
+	width: 175px;
+	height: 48px;
 }
 .gold-title {
 	color: var(--secondary-color);
 	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.subtitle {
+	/*font-size: var(--medium-font-size);*/
+	line-height: var(--medium-line-height);
+	/*color: var(--secondary-color);*/
+	max-width: 80%;
+	margin: 1em auto;
 }
 .anchors__wrapper {
+	margin-top: 40px;
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;
@@ -59,12 +67,14 @@
 		transform: translate3d(0,0,0);
 		transition: transform .3s ease-in-out;
 	}
-	& h5 {
-		width: 60%;
+	& .anchor__text {
+		font-size: var(--default-font-size);
+		width: 90%;
 		margin: 20px auto;
-		@media (--screen-phablet) {
+		font-weight: bold;
+		/*@media (--screen-phablet) {
 			width: 95%;
-		}
+		}*/
 	}
 	&:hover {
 		& svg {
@@ -73,17 +83,37 @@
 	}
 }
 .cta__wrapper {
+	position: relative;
+	width: 95%;
 	margin: 40px auto;
-	border: 2px solid var(--background-grey);
+	border: 2px solid var(--background-cta);
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	text-align: center;
+	z-index: 1;
+	&::before {
+		content: '';
+		position: absolute;
+		top: -10px;
+		left: -10px;
+		right: -10px;
+		bottom: -10px;
+		border: 5px solid var(--background-cta);
+		z-index: -1;
+	}
 	@media (--screen-phablet) {
 		flex-wrap: wrap;
 	}
-	& .cta__left, & .cta__right {
-		width: 50%;
+	& .cta__left {
+		width: 65%;
+		padding: 20px;
+		@media (--screen-phablet) {
+			width: 100%;
+		}
+	}
+	& .cta__right {
+		width: 35%;
 		padding: 20px;
 		@media (--screen-phablet) {
 			width: 100%;
@@ -91,16 +121,17 @@
 	}
 }
 .cta {
-	font-family: var(--font-text-condensed);
-	font-size: var(--h5-font-size);
-	line-height: var(--h5-line-height);
-	background-color: var(--background-grey);
+	font-family: var(--font-text);
+	font-size: var(--h6-font-size);
+	line-height: var(--bigger-line-height);
+	background-color: var(--background-cta);
 	padding: 10px;
 	color: white;
 	max-width: 320px;
 	margin: auto;
 	display: block;
 	text-transform: uppercase;
+	letter-spacing: 5px;
 	@media (--screen-phablet) {
 		font-size: var(--h5-font-size-mobile);
 		line-height: var(--h5-line-height-mobile);
@@ -115,7 +146,7 @@
 	}
 	& .img__wrapper {
 		position: relative;
-		min-height: 50vh;
+		min-height: 55vh;
 		overflow: hidden;
 		width: 50%;
 		@media (--screen-phablet) {
@@ -157,4 +188,7 @@
 			height: 70px;
 		}
 	}
+}
+.title-2 {
+	letter-spacing: 2px;
 }

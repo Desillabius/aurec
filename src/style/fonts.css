@@ -1,7 +1,27 @@
-/*@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');*/
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');*/
+
+/*@font-face {
+	font-family: 'Helvetica Neue Thin';
+	src: url('fonts/Helvetica-Neue-Thin.eot?#iefix');
+	src: url('fonts/Helvetica-Neue-Thin.eot?#iefix') format('eot'),
+	url('fonts/Helvetica-Neue-Thin.woff2') format('woff2'),
+	url('fonts/Helvetica-Neue-Thin.woff') format('woff'),
+	url('fonts/Helvetica-Neue-Thin.ttf') format('truetype'),
+	url('fonts/Helvetica-Neue-Thin.svg#e3b7d1e7c160') format('svg');
+}*/
+
+@font-face {
+	font-family: 'D Din Regular';
+	src: url('fonts/d-din.woff2') format('woff2'),
+	url('fonts/d-din.woff') format('woff');
+}
+/*@font-face {
+	font-family: 'D Din Bold';
+	src: url('fonts/d-din-bold.woff2') format('woff2'),
+	url('fonts/d-din-bold.woff') format('woff');
+}*/
 
 :root {
-	--font-text: 'Roboto', sans-serif;
-	--font-text-condensed: 'Roboto Condensed', sans-serif;
+	--font-text: 'D Din Regular', sans-serif;
+	/*--font-text-condensed: 'Roboto Condensed', sans-serif;*/
 }

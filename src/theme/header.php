@@ -33,6 +33,9 @@
 	    </div>
 		<nav id="main-menu" class="nav-wrapper__main" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
             <ul>
+            	<li itemprop="name">
+                    <a class="" href="/" itemprop="url">Home</a>
+                </li>
                 <li itemprop="name">
                     <a class="" href="chi-siamo" itemprop="url">Chi siamo</a>
                 </li>

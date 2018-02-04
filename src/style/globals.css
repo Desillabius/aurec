@@ -37,8 +37,12 @@ a[href^="mailto:"] {
 	text-decoration: underline;
 }
 
+a[href^="tel:"] {
+	letter-spacing: 1px;
+}
+
 h1 {
-	font-family: var(--font-text-condensed);
+	font-family: var(--font-text);
 	color: var(--secondary-color);
 	font-size: var(--h1-font-size);
 	line-height: var(--h1-line-height);
@@ -72,7 +76,7 @@ h3 {
 }
 
 h4 {
-	font-family: var(--font-text-condensed);
+	font-family: var(--font-text);
 	font-size: var(--h4-font-size);
 	line-height: var(--h4-line-height);
 
@@ -83,7 +87,7 @@ h4 {
 }
 
 h5 {
-	font-family: var(--font-text-condensed);
+	font-family: var(--font-text);
 	font-size: var(--h5-font-size);
 	line-height: var(--h5-line-height);
 

@@ -1,7 +1,7 @@
 .footer__wrapper {
 	position: relative;
 	padding: 20px;
-	background-color: var(--background-sand);
+	background-color: var(--background-footer);
 	width: 100%;
 	text-align: center;
 	color: black;
@@ -12,13 +12,14 @@
 		display: flex;
 		align-content: space-between;
 		justify-content: center;
-		align-items: flex-start;
+		align-items: stretch;
 		@media (--screen-phablet) {
 			flex-wrap: wrap;
 		}
 	}
 	& .footer__column {
 		width: 33.33%;
+		padding: 0 20px;
 		border-right: 2px solid var(--background-dividers);
 		@media (--screen-phablet) {
 			width: 100%;
