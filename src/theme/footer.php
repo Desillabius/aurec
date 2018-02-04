@@ -2,6 +2,26 @@
 
 	<section class="footer__inner">
 		<!-- AU.REC - Local Business Data -->
+		<div class="footer__column" itemscope itemtype="http://schema.org/LocalBusiness">
+			<svg class="aurec-logo" data-src="<?php echo get_template_directory_uri(); ?>/img/loghi/Aurec-logo.svg" alt="AU.REC - Precious Metals" />
+			<h5 itemprop="name">AU.REC srl METALLI PREZIOSI</h5>
+			<address itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
+				<span itemprop="streetAddress">Via Vittorio Emanuele, 33 </span><br>
+				<span itemprop="postalCode">10023 Chieri</span> - <span itemprop="addressLocality">Torino</span> - <span itemprop="addressRegion">Italia</span>
+			</address>
+			<p>Tel. 
+				<span itemprop="telephone" content="+3901311826242">
+					<a href="tel:+3901311826242" title="Numero Au.Rec">+39 01311826242</a>
+				</span> <br>
+				aurec.it <br>
+				<span itemprop="email" content="info@aurec.it">
+					<a href="mailto:info@aurec.it" title="info@aurec.it">info@aurec.it</a>
+				</span> <br>
+				<span itemprop="email" content="amministrazione@aurec.it">
+					<a href="mailto:amministrazione@aurec.it" title="amministrazione@aurec.it">amministrazione@aurec.it</a>
+				</span>
+			</p>
+		</div>
 		<div class="footer__column">
 			<h5>CONSULENZA ED INVESTIMENTI</h5>
 			<p>Contatta un tecnico AU.REC <br>per un appuntamento gratuito <br>e senza impegno.</p>
@@ -32,33 +52,13 @@
 				</p>
 			</div>
 		</div>
-		<div class="footer__column" itemscope itemtype="http://schema.org/LocalBusiness">
-			<!-- <svg class="aurec-logo" data-src="<?php echo get_template_directory_uri(); ?>/img/loghi/Aurec-logo.svg" alt="AU.REC - Precious Metals" /> -->
-			<h5 itemprop="name">AU.REC srl METALLI PREZIOSI</h5>
-			<address itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
-				<span itemprop="streetAddress">Via Vittorio Emanuele, 33 </span><br>
-				<span itemprop="postalCode">10023 Chieri</span> - <span itemprop="addressLocality">Torino</span> - <span itemprop="addressRegion">Italia</span>
-			</address>
-			<p>Tel. 
-				<span itemprop="telephone" content="+3901311826242">
-					<a href="tel:+390116983485" title="Numero Au.Rec">+ 39 0116983485</a>
-				</span> <br>
-				<!-- aurec.it <br> -->
-				<span itemprop="email" content="info@aurec.it">
-					<a href="mailto:info@aurec.it" title="info@aurec.it">info@aurec.it</a>
-				</span> <br>
-				<!-- <span itemprop="email" content="amministrazione@aurec.it">
-					<a href="mailto:amministrazione@aurec.it" title="amministrazione@aurec.it">amministrazione@aurec.it</a>
-				</span> -->
-			</p>
-		</div>
 		<div class="footer__column">
-			<!-- <h5><i>Partnership</i></h5> -->
-			<!-- <a href="http://www.bmvalenza.com/" target="_blank" rel="noopener noreferrer" title="BM Valenza - Diamanti">
+			<h5><i>Partnership</i></h5>
+			<a href="http://www.bmvalenza.com/" target="_blank" rel="noopener noreferrer" title="BM Valenza - Diamanti">
 				<img class="lazy bm-valenza-logo" data-src="<?php echo get_template_directory_uri(); ?>/img/loghi/BM-Valenza-logo.png" alt="BM Valenza - Diamanti" />
 				<br><br>bmvalenza.com
-			</a> -->
-			<h5>BM VALENZA <br>METALLI PREZIOSI</h5>
+			</a>
+			<!-- <h5>BM VALENZA <br>METALLI PREZIOSI</h5>
 			<address itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
 				<span itemprop="streetAddress">Via Ferruccio Valobra, 103 </span><br>
 				<span itemprop="postalCode">10022 Carmagnola</span> - <span itemprop="addressLocality">Torino</span> - <span itemprop="addressRegion">Italia</span>
@@ -67,7 +67,7 @@
 				<span itemprop="telephone" content="+3901311826242">
 					<a href="tel:+3901311826242" title="Numero BM Valenza">+ 39 01311826242</a>
 				</span>
-			</p>
+			</p> -->
 		</div>
 	</section>
 
