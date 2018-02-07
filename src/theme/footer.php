@@ -1,4 +1,4 @@
-<footer class="footer__wrapper animate-item" data-animation="come-in-footer">
+<footer id="footer" class="footer__wrapper animate-item" data-animation="come-in-footer">
 
 	<section class="footer__inner">
 		<!-- AU.REC - Local Business Data -->
@@ -13,7 +13,6 @@
 				<span itemprop="telephone" content="+3901311826242">
 					<a href="tel:+3901311826242" title="Numero Au.Rec">+39 01311826242</a>
 				</span> <br>
-				aurec.it <br>
 				<span itemprop="email" content="info@aurec.it">
 					<a href="mailto:info@aurec.it" title="info@aurec.it">info@aurec.it</a>
 				</span> <br>

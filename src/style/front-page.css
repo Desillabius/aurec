@@ -137,6 +137,11 @@
 		line-height: var(--h5-line-height-mobile);
 	}
 }
+a[href^="mailto:"] {
+	&.cta {
+		text-decoration: none;
+	}
+}
 .box__wrapper {
 	display: flex;
 	justify-content: center;
@@ -146,7 +151,7 @@
 	}
 	& .img__wrapper {
 		position: relative;
-		min-height: 55vh;
+		min-height: 70vh;
 		overflow: hidden;
 		width: 50%;
 		@media (--screen-phablet) {
@@ -176,16 +181,21 @@
 		}
 	}
 	& .text__inner {
-		max-width: 700px;
+		width: 80%;
+		max-width: 550px;
 		padding: 20px;
 		margin: auto;
 		text-align: center;
 		@media (--screen-phablet) {
+			width: 100%;
 			padding: 40px 20px;
 		}
 		& svg {
 			width: 70px;
 			height: 70px;
+		}
+		& h5 {
+			margin-top: 15px;
 		}
 	}
 }

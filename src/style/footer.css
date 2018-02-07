@@ -5,6 +5,7 @@
 	width: 100%;
 	text-align: center;
 	color: black;
+	line-height: 1.2;
 	& .footer__inner {
 		width: 100%;
 		max-width: 1366px;
@@ -34,19 +35,25 @@
 			}
 		}
 	}
+	& h5 {
+		margin: 15px 0;
+	}
+	& p {
+		/*margin: 10px 0;*/
+	}
 	& a {
 		color: black;
 	}
 	& address {
 		font-style: normal;
-		margin: 1em 0;
+		/*margin: 10px 0;*/
 	}
 }
 .aurec-logo {
-	width: 200px;
-	height: 135px;
+	width: 182px;
+	height: 121px;
 }
 .bm-valenza-logo {
-	max-width: 200px;
+	max-width: 182px;
 	margin: auto;
 }

@@ -40,7 +40,7 @@
                     <a class="" href="chi-siamo" itemprop="url">Chi siamo</a>
                 </li>
                 <li itemprop="name">
-                    <a class="" href="contattaci" itemprop="url">Contattaci</a>
+                    <a class="js-anchor" data-anchor="#footer" href="">Contattaci</a>
                 </li>
             </ul>
         </nav>

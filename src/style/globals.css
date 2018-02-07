@@ -113,3 +113,20 @@ h5 {
         display: table;
     }
 }
+
+.mobile-hide {
+    @media (--screen-mobile-min) {
+        display: block!important;
+    }
+    @media (--screen-mobile) {
+        display: none!important;
+    }
+}
+.mobile-show {
+    @media (--screen-mobile-min) {
+        display: none!important;
+    }
+    @media (--screen-mobile) {
+        display: block!important;
+    }
+}

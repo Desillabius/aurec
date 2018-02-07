@@ -30,6 +30,7 @@
 
 @custom-media --screen-tiny (max-width: 320px);
 @custom-media --screen-mobile (max-width: 640px);
+@custom-media --screen-mobile-min (min-width: 640px);
 @custom-media --screen-phablet (max-width: 820px);
 @custom-media --screen-tablet print, (max-width: 1000px);
 @custom-media --screen-medium (max-width: 1200px);
