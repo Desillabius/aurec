@@ -1,7 +1,9 @@
 .footer__wrapper {
 	position: relative;
+	font-size: 16px;
 	padding: 20px;
-	background-color: var(--background-footer);
+	/*background-color: var(--background-footer);*/
+	background-color: var(--background-cta);
 	width: 100%;
 	text-align: center;
 	color: black;
@@ -13,7 +15,8 @@
 		display: flex;
 		align-content: space-between;
 		justify-content: center;
-		align-items: stretch;
+		/*align-items: stretch;*/
+		align-items: center;
 		@media (--screen-phablet) {
 			flex-wrap: wrap;
 		}
@@ -37,6 +40,7 @@
 	}
 	& h5 {
 		margin: 15px 0;
+		font-size: 18px;
 	}
 	& p {
 		/*margin: 10px 0;*/
@@ -50,10 +54,13 @@
 	}
 }
 .aurec-logo {
-	width: 182px;
-	height: 121px;
+	/*width: 182px;
+	height: 121px;*/
+	width: 150px;
+	height: 100px;
 }
 .bm-valenza-logo {
-	max-width: 182px;
+	/*max-width: 182px;*/
+	max-width: 150px;
 	margin: auto;
 }

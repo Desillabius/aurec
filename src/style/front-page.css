@@ -2,6 +2,9 @@
 	position: relative;
 	min-height: 50vh;
 	overflow: hidden;
+	@media (--screen-phablet) {
+		min-height: 40vh;
+	}
 }
 .hero__image{
 	position: absolute;
@@ -201,4 +204,11 @@ a[href^="mailto:"] {
 }
 .title-2 {
 	letter-spacing: 2px;
+}
+.trading-desc {
+	text-align: center;
+	border: 1px solid #dde1e6;
+	border-bottom: none;
+	margin: 0;
+	padding: 10px 0;
 }

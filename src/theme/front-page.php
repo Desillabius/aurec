@@ -10,23 +10,23 @@
 </section>
 <section>
 	<div class="wrapper title__wrapper">
-		<h2 class="gold-title animate-item" data-animation="come-in">RECUPERA, RICICLA, TRASFORMA.</h2>
-		<p class="subtitle animate-item" data-animation="come-in">AU.REC, in collaborazione con BM Valenza, si occupa del recupero e della raffinazione di metalli preziosi. <br>
+		<h2 class="gold-title animate-item" data-animation="zoom-in">RECUPERA, RICICLA, TRASFORMA.</h2>
+		<p class="subtitle animate-item" data-animation="zoom-in">AU.REC, in collaborazione con BM Valenza, si occupa del recupero e della raffinazione di metalli preziosi. <br>
 		Un progetto nato per mettere in contatto i professionisti del settore dentistico e odontotecnico con i banchi di fusione della città di Valenza, garantendo sempre una valutazione precisa e trasparente.</p>
-		<div class="anchors__wrapper animate-item" data-animation="come-in">
-			<div class="anchor js-anchor" data-anchor="#anchor-1">
+		<div class="anchors__wrapper">
+			<div class="anchor js-anchor animate-item" data-animation="zoom-in-txt" data-anchor="#anchor-1">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Consulenza tecnica">
 				<p class="anchor__text">Consulenza tecnica</p>
 			</div>
-			<div class="anchor js-anchor" data-anchor="#anchor-2">
+			<div class="anchor js-anchor animate-item" data-animation="zoom-in-txt" data-anchor="#anchor-2">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/valutazione.svg" alt="Valutazione materiali e screening">
 				<p class="anchor__text">Valutazione materiali e screening spettrometrico</p>
 			</div>
-			<div class="anchor js-anchor" data-anchor="#anchor-3">
+			<div class="anchor js-anchor animate-item" data-animation="zoom-in-txt" data-anchor="#anchor-3">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/recupero.svg" alt="Recupero leghe e consulenza fiscale">
 				<p class="anchor__text">Recupero leghe odontoiatriche e consulenza fiscale</p>
 			</div>
-			<div class="anchor js-anchor" data-anchor="#anchor-4">
+			<div class="anchor js-anchor animate-item" data-animation="zoom-in-txt" data-anchor="#anchor-4">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/investimenti.svg" alt="Consulenza su investimenti in metallo e diamanti">
 				<p class="anchor__text">Consulenza su investimenti in metallo e diamanti</p>
 			</div>
@@ -34,7 +34,7 @@
 	</div>
 </section>
 <section>
-	<div class="wrapper cta__wrapper animate-item" data-animation="come-in">
+	<div class="wrapper cta__wrapper animate-item" data-animation="zoom-in">
 		<div class="cta__left">
 			<h3 class="text-grey">Trova la soluzione su misura per le tue esigenze.</h3>
 			<p>
@@ -58,7 +58,7 @@
 			data-200-bottom="transform: translateY(-60px);"
 			data-anchor-target="#anchor-1"></div>
 		</div>
-		<div class="text__wrapper animate-item" data-animation="come-in">
+		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Consulenza tecnica">
 				<h5>CONSULENZA TECNICA</h5>
@@ -68,7 +68,7 @@
 		</div>
 	</div>
 	<div id="anchor-2" class="box__wrapper">
-		<div class="text__wrapper animate-item" data-animation="come-in">
+		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/valutazione.svg" alt="Valutazione materiali e screening">
 				<h5>VALUTAZIONE MATERIALI <br>E SCREENING SPETTROMETRICO</h5>
@@ -91,7 +91,7 @@
 			data-200-bottom="transform: translateY(-60px);"
 			data-anchor-target="#anchor-3"></div>
 		</div>
-		<div class="text__wrapper animate-item" data-animation="come-in">
+		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/recupero.svg" alt="Recupero leghe e consulenza fiscale">
 				<h5>RECUPERO LEGHE ODONTOIATRICHE <br>E CONSULENZA FISCALE</h5>
@@ -100,7 +100,7 @@
 		</div>
 	</div>
 	<div id="anchor-4" class="box__wrapper">
-		<div class="text__wrapper animate-item" data-animation="come-in">
+		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/investimenti.svg" alt="Consulenza su investimenti in metallo e diamanti">
 				<h5>CONSULENZA SU INVESTIMENTI <br>IN METALLO E DIAMANTI</h5>
@@ -117,15 +117,17 @@
 	</div>
 </main>
 <section class="grey-bg">
-	<div class="wrapper title__wrapper animate-item" data-animation="come-in">
+	<div class="wrapper title__wrapper animate-item" data-animation="zoom-in">
 		<svg class="quotazioni-svg" data-src="<?php echo get_template_directory_uri(); ?>/img/icons/quotazioni.svg" alt="Quotazioni">
 		<h3 class="title-2">QUOTAZIONI</h3>
 		<h4>Scopri le quotazioni dei metalli preziosi in tempo reale.</h4>
 	</div>
 </section>
 <section>
-	<div class="wrapper animate-item" data-animation="come-in">
-		<div id="trading-view"></div>
+	<div class="wrapper animate-item" data-animation="zoom-in">
+		<p class="trading-desc">Prezzi per oncia in Euro</p>
+		<div id="trading-view-it"></div>
 	</div>
 </section>
+
 <?php get_footer(); ?>

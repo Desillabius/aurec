@@ -1,32 +1,32 @@
 jQuery(function() {
 	new TradingView.MediumWidget({
-	"container_id": "trading-view",
+	"container_id": "trading-view-it",
 	"symbols": [
 		[
 			"Oro",
-			"AMEX:GLD|1d"
+			"FX_IDC:XAUEUR|1d"
 		],
 		[
 			"Argento",
-			"AMEX:SLV|1d"
+			"FX_IDC:XAGEUR|1d"
 		],
 		[
 			"Platino",
-			"AMEX:PPLT|1d"
+			"FX_IDC:XPTEUR|1d"
 		],
 		[
 			"Palladio",
-			"AMEX:PALL|1d"
+			"FX_IDC:XPDEUR|1d"
 		]
 	],
-	"greyText": "",
+	"greyText": " ",
 	"gridLineColor": "#e9e9ea",
 	"fontColor": "#83888D",
 	"underLineColor": "#dbeffb",
 	"trendLineColor": "#4bafe9",
 	"width": "100%",
 	"height": "500px",
-	"locale": "en"
+	"locale": "it"
 	});
 
 });

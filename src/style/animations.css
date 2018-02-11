@@ -64,6 +64,11 @@
     animation: zoom 1.5s ease-out forwards .5s;
 }
 
+.zoom-in-txt {
+    transform: scale(.8, .8);
+    animation: zoom 1.5s ease-out forwards .5s;
+}
+
 .zoom-in-hero {
     transform: scale(.95, .95);
     animation: zoom 1.5s ease-out forwards;

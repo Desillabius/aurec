@@ -101,6 +101,10 @@ h5 {
 	color: var(--primary-color);
 }
 
+.text-center {
+	text-align: center;
+}
+
 .grey-bg {
 	background-color: #EDEAE5;
 }
