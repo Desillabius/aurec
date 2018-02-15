@@ -207,7 +207,8 @@ a[href^="mailto:"] {
 }
 .trading-desc {
 	text-align: center;
-	border: 1px solid #dde1e6;
+	/*border: 1px solid #dde1e6;*/
+	border: 2px solid #f4f4f4;
 	border-bottom: none;
 	margin: 0;
 	padding: 10px 0;

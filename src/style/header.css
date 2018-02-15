@@ -6,7 +6,7 @@
 	background-color: rgba(255,255,255,0);
 	z-index: 100;
 	transition: all .5s ease;
-	height: 100px;
+	height: 60px;
 	& .navbar-toggle {
 		cursor: pointer;
 	    position: absolute;
@@ -101,5 +101,19 @@
                 background-color: rgba(255,255,255,1);
             }
         }
+    }
+}
+
+.change-lang {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    & .lang-divider {
+        margin: 0 10px;
+        background-color: var(--primary-color);
+        width: 20px;
+        height: 2px;
     }
 }

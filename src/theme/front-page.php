@@ -124,9 +124,32 @@
 	</div>
 </section>
 <section>
-	<div class="wrapper animate-item" data-animation="zoom-in">
+	<!-- <div class="wrapper animate-item" data-animation="zoom-in">
 		<p class="trading-desc">Prezzi per oncia in Euro</p>
 		<div id="trading-view-it"></div>
+	</div> -->
+	<div class="wrapper animate-item" data-animation="zoom-in">
+		<script type="text/javascript" src="//oro.bullionvault.it/chart/bullionvaultchart.js" ></script>
+		<script type="text/javascript" >
+			var options = {
+				bullion: 'gold',
+				currency: 'EUR',
+				timeframe: '1m',
+				chartType: 'line',
+				miniChartModeAxis : 'both',
+				containerDefinedSize: true,
+				miniChartMode: false,
+				displayLatestPriceLine: true,
+				switchBullion: true,
+				switchCurrency: true,
+				switchTimeframe: true,
+				switchChartType: false,
+				exportButton: false
+			};
+			var chartBV = new BullionVaultChart(options, 'bullionvaultchart');
+		</script>
+		<p class="trading-desc">Prezzo al kilo e all'oncia in Euro</p>
+		<div id="bullionvaultchart" style="height: 500px;"></div>
 	</div>
 </section>
 
