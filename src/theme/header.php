@@ -27,9 +27,9 @@
 <body <?php body_class(); ?>>
 <header id="header" class="header">
 	<div class="change-lang">
-		<a href="/" title="">IT</a>
+		<a href="<?php echo home_url(); ?>/" title="">IT</a>
 		<div class="lang-divider"></div>
-		<a href="/en" title="">EN</a>
+		<a href="<?php echo home_url(); ?>/en" title="">EN</a>
 	</div>
 	<div id="navbar-toggle" class="navbar-toggle">
         <div class='bar1'></div>
@@ -39,10 +39,10 @@
 	<nav id="main-menu" class="nav-wrapper__main" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
         <ul>
         	<li itemprop="name">
-                <a class="" href="/" itemprop="url">Home</a>
+                <a class="" href="<?php echo home_url(); ?>/" itemprop="url">Home</a>
             </li>
             <li itemprop="name">
-                <a class="" href="chi-siamo" itemprop="url">Chi siamo</a>
+                <a class="" href="<?php echo home_url(); ?>/chi-siamo" itemprop="url">Chi siamo</a>
             </li>
             <li itemprop="name">
                 <a class="js-anchor" data-anchor="#footer" href="">Contattaci</a>
