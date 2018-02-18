@@ -25,6 +25,14 @@
 </head>
 
 <body <?php body_class(); ?>>
+<!-- <div class="cookie-disclaimer hide-now" id="cookie-disclaimer">
+	<div class="wrapper--cookie">
+		<p class="cookie-disclaimer__copy">
+			Utilizziamo i cookies anche di terze (impostati da un sito web diverso da quello visitato) per offrirti una migliore esperienza di navigazione sul nostro sito. Chiudendo questo banner o continuando la navigazione sul sito, accetti l'utilizzo di cookies. Per maggiori informazioni, per modificare le tue preferenze o negare il consenso a tutti o ad alcuni cookie visita la  <a title="View our privacy policy page" class="underline-link" href="/cookie-policy" target="_blank" rel="noopener noreferrer">Cookie policy</a>.
+		</p>
+		<a class="cta" id="js-accept-cookie" href=""><span>OK</span></a>
+	</div>
+</div> -->
 <header id="header" class="header">
 	<div class="change-lang">
 		<a href="<?php echo home_url(); ?>/" title="">IT</a>
@@ -36,16 +44,20 @@
         <div class='bar2'></div>
         <div class='bar3'></div>
     </div>
+	<!-- <?php wp_nav_menu( array( 'container' => 'nav', 'container_class' => 'nav-wrapper__main' ) ); ?> -->
 	<nav id="main-menu" class="nav-wrapper__main" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
         <ul>
         	<li itemprop="name">
-                <a class="" href="<?php echo home_url(); ?>/" itemprop="url">Home</a>
+                <a lang="it-IT" class="" href="<?php echo home_url(); ?>/" itemprop="url">Home</a>
+                <a lang="en-US" class="" href="<?php echo home_url(); ?>/en" itemprop="url">Home</a>
             </li>
             <li itemprop="name">
-                <a class="" href="<?php echo home_url(); ?>/chi-siamo" itemprop="url">Chi siamo</a>
+                <a lang="it-IT" class="" href="<?php echo home_url(); ?>/chi-siamo" itemprop="url">Chi siamo</a>
+                <a lang="en-US" class="" href="<?php echo home_url(); ?>/en/who-we-are" itemprop="url">Who we are</a>
             </li>
             <li itemprop="name">
-                <a class="js-anchor" data-anchor="#footer" href="">Contattaci</a>
+                <a lang="it-IT" class="js-anchor" data-anchor="#footer" href="">Contattaci</a>
+                <a lang="en-US" class="js-anchor" data-anchor="#footer" href="">Contact us</a>
             </li>
         </ul>
     </nav>

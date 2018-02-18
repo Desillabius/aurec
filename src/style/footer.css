@@ -8,6 +8,9 @@
 	text-align: center;
 	color: black;
 	line-height: 1.2;
+	@media (--screen-phablet) {
+		padding: 0 10px;
+	}
 	& .footer__inner {
 		width: 100%;
 		max-width: 1366px;

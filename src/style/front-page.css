@@ -25,6 +25,12 @@
 	margin: auto;
 	padding: 30px 20px;
 }
+.wrapper--chart {
+	@media (--screen-phablet) {
+		padding: 30px 0;
+		margin: auto;
+	}
+}
 .title__wrapper {
 	text-align: center;
 }
@@ -38,9 +44,14 @@
 	letter-spacing: 5px;
 }
 .subtitle {
-	/*font-size: var(--medium-font-size);*/
 	line-height: var(--medium-line-height);
-	/*color: var(--secondary-color);*/
+	max-width: 80%;
+	margin: 1em auto;
+}
+
+.gold-subtitle {
+	line-height: var(--medium-line-height);
+	color: var(--secondary-color);
 	max-width: 80%;
 	margin: 1em auto;
 }
@@ -183,6 +194,13 @@ a[href^="mailto:"] {
 			order: 2;
 		}
 	}
+	& .text__wrapper--huge {
+		width: 50%;
+		@media (--screen-phablet) {
+			width: 100%;
+			order: 1;
+		}
+	}
 	& .text__inner {
 		width: 80%;
 		max-width: 550px;
@@ -201,6 +219,23 @@ a[href^="mailto:"] {
 			margin-top: 15px;
 		}
 	}
+	& .text__inner--huge {
+		width: 80%;
+		max-width: 550px;
+		padding: 20px;
+		font-size: 5vw;
+		color: rgba(255,255,255,.5);
+		/*margin: auto;*/
+		/*text-align: center;*/
+		@media (--screen-medium) {
+			font-size: 60px;
+		}
+		@media (--screen-phablet) {
+			font-size: 40px;
+			width: 100%;
+			padding: 40px 20px;
+		}
+	}
 }
 .title-2 {
 	letter-spacing: 2px;
@@ -212,4 +247,26 @@ a[href^="mailto:"] {
 	border-bottom: none;
 	margin: 0;
 	padding: 10px 0;
+	/*@media (--screen-phablet) {
+		width: 320px;
+	}*/
+}
+
+.bullionvaultchart {
+	height: 500px;
+	width: 100%;
+	@media (--screen-phablet) {
+		height: 400px;
+		/*width: 320px;*/
+	}
+}
+
+.logo-top-page {
+	width: 320px;
+	height: 210px;
+	margin: 40px auto;
+	@media (--screen-phablet) {
+		width: 180px;
+		height: 130px;
+	}
 }

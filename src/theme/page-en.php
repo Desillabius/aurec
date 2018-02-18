@@ -5,30 +5,30 @@
 			data-start="transform: translateY(0px);"
 			data-500-start="transform: translateY(150px);"
 			data-anchor-target=".hero__wrapper"></div> -->
-		<div class="hero__image lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/hero/AUREC-precious-metals.jpg" alt="Au.Rec - Metalli Preziosi"></div>
+		<div class="hero__image lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/hero/AUREC-precious-metals.jpg" alt="Au.Rec - Precious Metals"></div>
 	</div>
 </section>
 <section>
 	<div class="wrapper title__wrapper">
-		<h2 class="gold-title animate-item" data-animation="zoom-in">RECUPERA, RICICLA, TRASFORMA. INGLESE</h2>
-		<p class="subtitle animate-item" data-animation="zoom-in">AU.REC, in collaborazione con BM Valenza, si occupa del recupero e della raffinazione di metalli preziosi. <br>
-		Un progetto nato per mettere in contatto i professionisti del settore dentistico e odontotecnico con i banchi di fusione della città di Valenza, garantendo sempre una valutazione precisa e trasparente.</p>
+		<h2 class="gold-title animate-item" data-animation="zoom-in">RECOVER, RECYCLE, TRANSFORM.</h2>
+		<p class="subtitle animate-item" data-animation="zoom-in">AU.REC, in collaboration with BM Valenza, deals with the recovery and refining of precious metals. <br>
+		A project created to connect the professionals of the dental and prosthodontics field with the Valenza city smelting centers, always guaranteeing a precise and transparent evaluation.</p>
 		<div class="anchors__wrapper">
 			<div class="anchor js-anchor animate-item" data-animation="zoom-in-txt" data-anchor="#anchor-1">
-				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Consulenza tecnica">
-				<p class="anchor__text">Consulenza tecnica</p>
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Technical consultancy">
+				<p class="anchor__text">Technical consultancy</p>
 			</div>
 			<div class="anchor js-anchor animate-item" data-animation="zoom-in-txt" data-anchor="#anchor-2">
-				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/valutazione.svg" alt="Valutazione materiali e screening">
-				<p class="anchor__text">Valutazione materiali e screening spettrometrico</p>
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/valutazione.svg" alt="Evaluation of materials and spectrometric screening">
+				<p class="anchor__text">Evaluation of materials and spectrometric screening</p>
 			</div>
 			<div class="anchor js-anchor animate-item" data-animation="zoom-in-txt" data-anchor="#anchor-3">
-				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/recupero.svg" alt="Recupero leghe e consulenza fiscale">
-				<p class="anchor__text">Recupero leghe odontoiatriche e consulenza fiscale</p>
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/recupero.svg" alt="Precious orthodontic metals recovery and tax advice">
+				<p class="anchor__text">Precious orthodontic metals recovery and tax advice</p>
 			</div>
 			<div class="anchor js-anchor animate-item" data-animation="zoom-in-txt" data-anchor="#anchor-4">
-				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/investimenti.svg" alt="Consulenza su investimenti in metallo e diamanti">
-				<p class="anchor__text">Consulenza su investimenti in metallo e diamanti</p>
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/investimenti.svg" alt="Precious metals and diamond investment consulting">
+				<p class="anchor__text">Precious metals and diamond investment consulting</p>
 			</div>
 		</div>
 	</div>
@@ -36,16 +36,16 @@
 <section>
 	<div class="wrapper cta__wrapper animate-item" data-animation="zoom-in">
 		<div class="cta__left">
-			<h3 class="text-grey">Trova la soluzione su misura per le tue esigenze.</h3>
+			<h3 class="text-grey">The perfect solution, tailored to your needs.</h3>
 			<p>
-				Con un’intera gamma di servizi, AU.REC <br>
-				ha sempre una risposta su misura per le tue esigenze. <br>
-				Prenota subito una consulenza gratuita e senza impegno.
+				With a whole range of services, AU.REC <br>
+				has always a bespoke answer to all your needs. <br>
+				Book now a consultation, it’s free and with no obligation.
 			</p>
 		</div>
 		<div class="cta__right">
-			<a class="cta mobile-hide" href="mailto:info@aurec.it" title="Richiedi una consulenza">Richiedi <br>una consulenza</a>
-			<a class="cta mobile-show" href="tel:+3901311826242" title="Richiedi una consulenza">Richiedi <br>una consulenza</a>
+			<a class="cta mobile-hide" href="mailto:info@aurec.it" title="Book now a consultation">Book now <br>a consultation</a>
+			<a class="cta mobile-show" href="tel:+3901311826242" title="Book now a consultation">Book now <br>a consultation</a>
 		</div>
 	</div>
 </section>
@@ -61,9 +61,8 @@
 		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Consulenza tecnica">
-				<h5>CONSULENZA TECNICA</h5>
-				<p>AU.REC offre diverse opzioni di valutazione in base al tempo disponibile  e alla quantità di materiali da analizzare. <br>
-				Basta un semplice appuntamento e un esperto valuterà il materiale direttamente presso lo studio o il laboratorio.</p>
+				<h5>TECHNICAL CONSULTANCY</h5>
+				<p>AU.REC offers several evaluation options based on available time and quantity of materials to be analyzed. <br>An expert will evaluate the material directly on site, in your office or laboratory, with just a simple appointment.</p>
 			</div>
 		</div>
 	</div>
@@ -71,8 +70,8 @@
 		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/valutazione.svg" alt="Valutazione materiali e screening">
-				<h5>VALUTAZIONE MATERIALI <br>E SCREENING SPETTROMETRICO</h5>
-				<p>Gli esperti AU.REC forniscono una valutazione accurata e puntuale del calcolo delle millesimazioni e della caratura dei metalli nobili come argento, oro, platino e palladio contenuti in scarti di lavorazione odontotecnica, protesi dentarie dismesse e materiali di oreficeria.</p>
+				<h5>EVALUATION OF MATERIALS <br>AND SPECTROMETRIC SCREENING</h5>
+				<p>The AU.REC experts offer an accurate evaluation to calculate the purity or the carats of precious metals such as silver, gold, platinum and palladium. Our technicians specialize in the listing of medical dental devices as well as the evaluation of the waste in goldsmith, electronic, engineering and mining industry.</p>
 			</div>
 		</div>
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
@@ -94,8 +93,8 @@
 		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/recupero.svg" alt="Recupero leghe e consulenza fiscale">
-				<h5>RECUPERO LEGHE ODONTOIATRICHE <br>E CONSULENZA FISCALE</h5>
-				<p>Il consulente AU.REC offre una valutazione e una quantificazione accurata dei metalli riciclabili tramite fusione e individua un piano di recupero personalizzato.</p>
+				<h5>PRECIOUS ORTHODONTIC METALS RECOVERY AND TAX ADVICE</h5>
+				<p>The AU.REC consultant offers an accurate evaluation and quantification of metals recyclable through smelting and identifies a personalized recovery plan.</p>
 			</div>
 		</div>
 	</div>
@@ -103,8 +102,8 @@
 		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/investimenti.svg" alt="Consulenza su investimenti in metallo e diamanti">
-				<h5>CONSULENZA SU INVESTIMENTI <br>IN METALLO E DIAMANTI</h5>
-				<p>La gamma dei servizi AU.REC si adatta alle esigenze specifiche di ogni cliente offrendo diverse opzioni di valutazione e investimento dei materiali.</p>
+				<h5>PRECIOUS METALS <br>AND DIAMOND INVESTMENT CONSULTING</h5>
+				<p>The AU.REC range of services deals with providing specific technical consultancy and tax advice for all those interested in investing in precious metals and diamonds.</p>
 			</div>
 		</div>
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
@@ -119,8 +118,8 @@
 <section class="grey-bg">
 	<div class="wrapper title__wrapper animate-item" data-animation="zoom-in">
 		<svg class="quotazioni-svg" data-src="<?php echo get_template_directory_uri(); ?>/img/icons/quotazioni.svg" alt="Quotazioni">
-		<h3 class="title-2">QUOTAZIONI</h3>
-		<h4>Scopri le quotazioni dei metalli preziosi in tempo reale.</h4>
+		<h3 class="title-2">QUOTATIONS</h3>
+		<h4>Find the market rate of precious metals in real time.</h4>
 	</div>
 </section>
 <section>
@@ -128,8 +127,8 @@
 		<p class="trading-desc">Prezzi per oncia in Euro</p>
 		<div id="trading-view-it"></div>
 	</div> -->
-	<div class="wrapper animate-item" data-animation="zoom-in">
-		<script type="text/javascript" src="//oro.bullionvault.it/chart/bullionvaultchart.js" ></script>
+	<div class="wrapper wrapper--chart animate-item" data-animation="zoom-in">
+		<script type="text/javascript" src="//www.bullionvault.com/chart/bullionvaultchart.js" ></script>
 		<script type="text/javascript" >
 			var options = {
 				bullion: 'gold',
@@ -139,17 +138,17 @@
 				miniChartModeAxis : 'both',
 				containerDefinedSize: true,
 				miniChartMode: false,
-				displayLatestPriceLine: true,
+				displayLatestPriceLine: false,
 				switchBullion: true,
 				switchCurrency: true,
 				switchTimeframe: true,
 				switchChartType: false,
 				exportButton: false
 			};
-			var chartBV = new BullionVaultChart(options, 'bullionvaultchart');
+			var chartBV = new BullionVaultChart(options, 'bullionvaultchart-EN');
 		</script>
-		<p class="trading-desc">Prezzo al kilo e all'oncia in Euro</p>
-		<div id="bullionvaultchart" style="height: 500px;"></div>
+		<!-- <p class="trading-desc">Prezzo al kilo e all'oncia in Euro</p> -->
+		<div class="bullionvaultchart" id="bullionvaultchart-EN"></div>
 	</div>
 </section>
 

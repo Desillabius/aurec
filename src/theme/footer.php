@@ -1,53 +1,73 @@
 <footer id="footer" class="footer__wrapper animate-item" data-animation="come-in-footer">
 
 	<section class="footer__inner">
-		<!-- AU.REC - Local Business Data -->
-		<div class="footer__column" itemscope itemtype="http://schema.org/LocalBusiness">
-			<svg class="aurec-logo" data-src="<?php echo get_template_directory_uri(); ?>/img/loghi/Aurec-logo.svg" alt="AU.REC - Precious Metals" />
-			<h5 itemprop="name">AU.REC srl METALLI PREZIOSI</h5>
-			<address itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
-				<span itemprop="streetAddress">Via Vittorio Emanuele, 33 </span><br>
-				<span itemprop="postalCode">10023 Chieri</span> - <span itemprop="addressLocality">Torino</span> - <span itemprop="addressRegion">Italia</span>
-			</address>
+		<div class="footer__column" lang="it-IT">
+			<svg class="aurec-logo" data-src="<?php echo get_template_directory_uri(); ?>/img/loghi/Aurec-logo.svg" alt="AU.REC - Metalli Preziosi" />
+			<h5>AU.REC srl METALLI PREZIOSI</h5>
+			<a href="https://goo.gl/maps/72UDGKcKM2r" title="" target="_blank" rel="noopener noreferrer">
+				<address>
+					<span>Via Vittorio Emanuele II, 33 </span><br>
+					<span>10023 Chieri - Torino - Italia</span>
+				</address>
+			</a>
 			<p>Tel. 
-				<span itemprop="telephone" content="+3901311826242">
-					<a href="tel:+3901311826242" title="Numero Au.Rec">+39 01311826242</a>
-				</span> <br>
-				<span itemprop="email" content="info@aurec.it">
-					<a href="mailto:info@aurec.it" title="info@aurec.it">info@aurec.it</a>
-				</span> <br>
-				<span itemprop="email" content="amministrazione@aurec.it">
-					<a href="mailto:amministrazione@aurec.it" title="amministrazione@aurec.it">amministrazione@aurec.it</a>
-				</span>
+				<a href="tel:+3901311826242" title="Numero Au.Rec">+39 01311826242</a>
+				<br>
+				<a href="mailto:info@aurec.it" title="info@aurec.it">info@aurec.it</a>
+				<br>
+				<a href="mailto:amministrazione@aurec.it" title="amministrazione@aurec.it">amministrazione@aurec.it</a>
 			</p>
 		</div>
-		<div class="footer__column">
+		<div class="footer__column" lang="en-US">
+			<svg class="aurec-logo" data-src="<?php echo get_template_directory_uri(); ?>/img/loghi/Aurec-logo.svg" alt="AU.REC - Precious Metals" />
+			<h5>AU.REC srl PRECIOUS METALS</h5>
+			<a href="https://goo.gl/maps/72UDGKcKM2r" title="" target="_blank" rel="noopener noreferrer">
+				<address>
+					<span>Via Vittorio Emanuele II, 33 </span><br>
+					<span>10023 Chieri - Torino - Italia</span>
+				</address>
+			</a>
+			<p>Tel. 
+				<a href="tel:+3901311826242" title="Phone number Au.Rec">+39 01311826242</a>
+				<br>
+				<a href="mailto:info@aurec.it" title="info@aurec.it">info@aurec.it</a>
+				<br>
+				<a href="mailto:amministrazione@aurec.it" title="amministrazione@aurec.it">amministrazione@aurec.it</a>
+			</p>
+		</div>
+		<div class="footer__column" lang="it-IT">
 			<h5>CONSULENZA ED INVESTIMENTI</h5>
 			<p>Contatta un tecnico AU.REC <br>per un appuntamento gratuito <br>e senza impegno.</p>
-			<div itemscope="" itemtype="http://schema.org/Person">
-				<p>
-				<meta itemprop="gender" content="Male">
-				<span itemprop="name">DANILO PALMIERO</span> <br>
-				Tel. 
-				<span itemprop="telephone" content="+393497815204">
-					<a href="tel:+393497815204" title="Danilo Palmiero">+ 39 3497815204</a>
-				</span> <br>
-				<span itemprop="email" content="palmiero@aurec.it">
-					<a href="mailto:palmiero@aurec.it" title="palmiero@aurec.it">palmiero@aurec.it</a>
-				</span>
+			<div>
+				<p>DANILO PALMIERO <br>
+				Tel. <a href="tel:+393497815204" title="Danilo Palmiero">+ 39 3497815204</a>
+				<br>
+				<a href="mailto:palmiero@aurec.it" title="palmiero@aurec.it">palmiero@aurec.it</a>
 				</p>
 			</div>
-			<div itemscope="" itemtype="http://schema.org/Person">
-				<p>
-				<meta itemprop="gender" content="Male">
-				<span itemprop="name">STEFANO RICCOBENE</span> <br>
-				Tel. 
-				<span itemprop="telephone" content="+393281893145">
-					<a href="tel:+393281893145" title="Stefano Riccobene">+ 39 3281893145</a>
-				</span> <br>
-				<span itemprop="email" content="riccobene@aurec.it">
-					<a href="mailto:riccobene@aurec.it" title="riccobene@aurec.it">riccobene@aurec.it</a>
-				</span>
+			<div>
+				<p>STEFANO RICCOBENE <br>
+				Tel. <a href="tel:+393281893145" title="Stefano Riccobene">+ 39 3281893145</a>
+				<br>
+				<a href="mailto:riccobene@aurec.it" title="riccobene@aurec.it">riccobene@aurec.it</a>
+				</p>
+			</div>
+		</div>
+		<div class="footer__column" lang="en-US">
+			<h5>CONSULENZA ED INVESTIMENTI</h5>
+			<p>Contatta un tecnico AU.REC <br>per un appuntamento gratuito <br>e senza impegno.</p>
+			<div>
+				<p>DANILO PALMIERO <br>
+				Tel. <a href="tel:+393497815204" title="Danilo Palmiero">+ 39 3497815204</a>
+				<br>
+				<a href="mailto:palmiero@aurec.it" title="palmiero@aurec.it">palmiero@aurec.it</a>
+				</p>
+			</div>
+			<div>
+				<p>STEFANO RICCOBENE <br>
+				Tel. <a href="tel:+393281893145" title="Stefano Riccobene">+ 39 3281893145</a>
+				<br>
+				<a href="mailto:riccobene@aurec.it" title="riccobene@aurec.it">riccobene@aurec.it</a>
 				</p>
 			</div>
 		</div>
@@ -57,20 +77,65 @@
 				<img class="lazy bm-valenza-logo" data-src="<?php echo get_template_directory_uri(); ?>/img/loghi/BM-Valenza-logo.png" alt="BM Valenza - Diamanti" />
 				<br><br>bmvalenza.com
 			</a>
-			<!-- <h5>BM VALENZA <br>METALLI PREZIOSI</h5>
-			<address itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
-				<span itemprop="streetAddress">Via Ferruccio Valobra, 103 </span><br>
-				<span itemprop="postalCode">10022 Carmagnola</span> - <span itemprop="addressLocality">Torino</span> - <span itemprop="addressRegion">Italia</span>
-			</address>
-			<p>Tel. 
-				<span itemprop="telephone" content="+3901311826242">
-					<a href="tel:+3901311826242" title="Numero BM Valenza">+ 39 01311826242</a>
-				</span>
-			</p> -->
 		</div>
 	</section>
 
 </footer>
+
+<!-- AU.REC schema -->
+<script type="application/ld+json">
+	{ 
+		"@context" : "http://schema.org",
+		"@type" : "Organization",
+		"name" : "AU.REC srl METALLI PREZIOSI",
+		"logo" : "<?php echo get_template_directory_uri(); ?>/img/loghi/Aurec-logo.png",
+		"url" : "https://www.aurec.it",
+		"address": {
+		    "@type": "PostalAddress",
+		    "streetAddress": "Via Vittorio Emanuele, 33",
+		    "addressLocality": "Torino",
+		    "addressRegion": "Italia",
+		    "postalCode": "10023"
+		},
+		"telephone": "+3901311826242",
+		"contactPoint": [{
+	    	"@type": "ContactPoint",
+			"email": "mailto:info@aurec.it",
+		    "contactType": "Informazioni",
+		    "areaServed": "IT"
+		},{
+		    "@type": "ContactPoint",
+			"email": "mailto:amministrazione@aurec.it",
+		    "contactType": "Amministrazione",
+		    "areaServed": "IT"
+		}]
+	}
+</script>
+<!-- Danilo Palmiero schema -->
+<script type="application/ld+json">
+    {
+	    "@context": "http://schema.org",
+	    "@type": "Person",
+	    "name": "Danilo Palmiero",
+	    "gender": "male",
+	    "email": "mailto:palmiero@aurec.it",
+	    "nationality": "Italiana",
+	    "telephone": "+393497815204"
+    }
+</script>
+<!-- Stefano Riccobene schema -->
+<script type="application/ld+json">
+    {
+	    "@context": "http://schema.org",
+	    "@type": "Person",
+	    "name": "Stefano Riccobene",
+	    "gender": "male",
+	    "email": "mailto:riccobene@aurec.it",
+	    "nationality": "Italiana",
+	    "telephone": "+393281893145"
+    }
+</script>
+
 <?php wp_footer(); ?>
 </body>
 </html>

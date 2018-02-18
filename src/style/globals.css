@@ -41,6 +41,19 @@ a[href^="tel:"] {
 	letter-spacing: 1px;
 }
 
+html {
+	&:lang(it) {
+		& *:lang(en) {
+			display: none;
+		}
+	}
+	&:lang(en) {
+		& *:lang(it) {
+			display: none;
+		}
+	}
+}
+
 h1 {
 	font-family: var(--font-text);
 	color: var(--secondary-color);
@@ -107,6 +120,10 @@ h5 {
 
 .grey-bg {
 	background-color: #EDEAE5;
+}
+
+.grey-bg-2 {
+	background-color: #D1C5B8;
 }
 
 .cf {
