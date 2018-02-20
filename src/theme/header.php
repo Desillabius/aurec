@@ -35,16 +35,16 @@
 </div> -->
 <header id="header" class="header">
 	<div class="change-lang">
-		<a href="<?php echo home_url(); ?>/" title="">IT</a>
+		<a href="<?php echo home_url(); ?>/homepage" title="IT" hreflang="it-IT" >IT</a>
 		<div class="lang-divider"></div>
-		<a href="<?php echo home_url(); ?>/en" title="">EN</a>
+		<a href="<?php echo home_url(); ?>/en" title="EN" hreflang="en-US" >EN</a>
 	</div>
 	<div id="navbar-toggle" class="navbar-toggle">
         <div class='bar1'></div>
         <div class='bar2'></div>
         <div class='bar3'></div>
     </div>
-	<!-- <?php wp_nav_menu( array( 'container' => 'nav', 'container_class' => 'nav-wrapper__main' ) ); ?> -->
+	<!-- <?php wp_nav_menu( array( 'container' => 'nav', 'container_class' => 'nav-wrapper__man' ) ); ?> -->
 	<nav id="main-menu" class="nav-wrapper__main" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
         <ul>
         	<li itemprop="name">

@@ -1,4 +1,5 @@
-<footer id="footer" class="footer__wrapper animate-item" data-animation="come-in-footer">
+<!-- <footer id="footer" class="footer__wrapper animate-item" data-animation="come-in-footer"> -->
+<footer id="footer" class="footer__wrapper">
 
 	<section class="footer__inner">
 		<div class="footer__column" lang="it-IT">

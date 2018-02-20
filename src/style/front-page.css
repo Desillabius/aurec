@@ -212,11 +212,17 @@ a[href^="mailto:"] {
 			padding: 40px 20px;
 		}
 		& svg {
-			width: 70px;
-			height: 70px;
+			width: 35px;
+			height: 35px;
 		}
 		& h5 {
 			margin-top: 15px;
+		}
+		&.text__inner--big {
+			& svg {
+				width: 100px;
+				height: 100px;
+			}
 		}
 	}
 	& .text__inner--huge {
@@ -265,6 +271,14 @@ a[href^="mailto:"] {
 	width: 320px;
 	height: 210px;
 	margin: 40px auto;
+	& .fill-and-stroke {
+		fill: #9B7438;
+		stroke: #9B7438;
+	}
+	& .only-stroke {
+		fill: none;
+		stroke: #9B7438;
+	}
 	@media (--screen-phablet) {
 		width: 180px;
 		height: 130px;

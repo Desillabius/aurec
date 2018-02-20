@@ -53,17 +53,21 @@
 	}
 	& address {
 		font-style: normal;
-		/*margin: 10px 0;*/
+	}
+	& .aurec-logo {
+		width: 150px;
+		height: 100px;
+		& .fill-and-stroke {
+			fill: #010101;
+			stroke: #010101;
+		}
+		& .only-stroke {
+			fill: none;
+			stroke: #010101;
+		}
 	}
 }
-.aurec-logo {
-	/*width: 182px;
-	height: 121px;*/
-	width: 150px;
-	height: 100px;
-}
 .bm-valenza-logo {
-	/*max-width: 182px;*/
 	max-width: 150px;
 	margin: auto;
 }

@@ -89,7 +89,7 @@
         }
         & a {
             display: block;
-            padding: 10px 10px 10px 40px;
+            padding: 5px 5px 5px 30px;
             /*position: relative;*/
             background-color: rgba(255,255,255,0);
             transition: background-color .2s ease-in;
@@ -106,14 +106,19 @@
 
 .change-lang {
     position: absolute;
-    left: 20px;
-    top: 20px;
+    right: 90px;
+    top: 15px;
     display: flex;
     align-items: center;
+    @media (--screen-phablet) {
+        right: initial;
+        left: 20px;
+        top: 20px;
+    }
     & .lang-divider {
         margin: 0 10px;
         background-color: var(--primary-color);
-        width: 20px;
+        width: 15px;
         height: 2px;
     }
 }
