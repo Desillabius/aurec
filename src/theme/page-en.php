@@ -52,7 +52,7 @@
 <main>
 	<div id="anchor-1" class="box__wrapper grey-bg">
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/consulenza-tecnica.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/consulenza-tecnica.jpg"
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"
@@ -60,7 +60,7 @@
 		</div>
 		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
-				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Consulenza tecnica">
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Technical consultancy">
 				<h5>TECHNICAL CONSULTANCY</h5>
 				<p>AU.REC offers several evaluation options based on available time and quantity of materials to be analyzed. <br>An expert will evaluate the material directly on site, in your office or laboratory, with just a simple appointment.</p>
 			</div>
@@ -69,13 +69,13 @@
 	<div id="anchor-2" class="box__wrapper">
 		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
-				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/valutazione.svg" alt="Valutazione materiali e screening">
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/valutazione.svg" alt="Evaluation of materials and spectrometric screening">
 				<h5>EVALUATION OF MATERIALS <br>AND SPECTROMETRIC SCREENING</h5>
 				<p>The AU.REC experts offer an accurate evaluation to calculate the purity or the carats of precious metals such as silver, gold, platinum and palladium. Our technicians specialize in the listing of medical dental devices as well as the evaluation of the waste in goldsmith, electronic, engineering and mining industry.</p>
 			</div>
 		</div>
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/valutazioni-materiali.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/valutazioni-materiali-zoom_v02.jpg"
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"
@@ -84,7 +84,7 @@
 	</div>
 	<div id="anchor-3" class="box__wrapper grey-bg">
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/recupero-leghe.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/recupero-leghe.jpg"
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"
@@ -92,7 +92,7 @@
 		</div>
 		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
-				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/recupero.svg" alt="Recupero leghe e consulenza fiscale">
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/recupero.svg" alt="Precious orthodontic metals recovery and tax advice">
 				<h5>PRECIOUS ORTHODONTIC METALS RECOVERY AND TAX ADVICE</h5>
 				<p>The AU.REC consultant offers an accurate evaluation and quantification of metals recyclable through smelting and identifies a personalized recovery plan.</p>
 			</div>
@@ -101,13 +101,13 @@
 	<div id="anchor-4" class="box__wrapper">
 		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
-				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/investimenti.svg" alt="Consulenza su investimenti in metallo e diamanti">
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/investimenti.svg" alt="Precious metals and diamond investment consulting">
 				<h5>PRECIOUS METALS <br>AND DIAMOND INVESTMENT CONSULTING</h5>
 				<p>The AU.REC range of services deals with providing specific technical consultancy and tax advice for all those interested in investing in precious metals and diamonds.</p>
 			</div>
 		</div>
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/consulenza-investimenti.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/consulenza-investimenti.jpg"
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"
@@ -119,7 +119,8 @@
 	<div class="wrapper title__wrapper animate-item" data-animation="zoom-in">
 		<svg class="quotazioni-svg" data-src="<?php echo get_template_directory_uri(); ?>/img/icons/quotazioni.svg" alt="Quotazioni">
 		<h3 class="title-2">QUOTATIONS</h3>
-		<h4>Find the market rate of precious metals in real time.</h4>
+		<!-- <h4>Find the market rate of precious metals in real time.</h4> -->
+		<p>Find the market rate of precious metals in real time.</p>
 	</div>
 </section>
 <section>

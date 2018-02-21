@@ -1,20 +1,21 @@
 .hero__wrapper {
 	position: relative;
-	min-height: 50vh;
+	/*min-height: 50vh;*/
+	min-height: 55vh;
 	overflow: hidden;
 	@media (--screen-phablet) {
-		min-height: 40vh;
+		min-height: 50vh;
 	}
 }
 .hero__image{
 	position: absolute;
-	top: -20px;
+	top: 0;
 	left: 0;
 	right: 0;
-	bottom: -20px;
+	bottom: 0;
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: 50% 38%;
     tranform: translateZ(0);
 	backface-visibility: hidden;
 	perspective: 1000;
@@ -37,11 +38,13 @@
 .quotazioni-svg {
 	width: 175px;
 	height: 48px;
+	margin-bottom: -15px;
 }
 .gold-title {
 	color: var(--secondary-color);
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	margin-top: 0;
 }
 .subtitle {
 	line-height: var(--medium-line-height);
@@ -56,7 +59,7 @@
 	margin: 1em auto;
 }
 .anchors__wrapper {
-	margin-top: 40px;
+	margin-top: 30px;
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;
@@ -282,7 +285,7 @@ a[href^="mailto:"] {
 .logo-top-page {
 	width: 320px;
 	/*height: 210px;*/
-	margin: 40px auto;
+	margin: 90px auto 40px;
 	& .fill-and-stroke {
 		fill: #9B7438;
 		stroke: #9B7438;

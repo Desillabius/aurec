@@ -56,7 +56,7 @@
                 <a lang="en-US" class="" href="<?php echo home_url(); ?>/en/who-we-are" itemprop="url">Who we are</a>
             </li>
             <li itemprop="name">
-                <a lang="it-IT" class="js-anchor" data-anchor="#footer" href="">Contattaci</a>
+                <a lang="it-IT" class="js-anchor" data-anchor="#footer" href="">Contatti</a>
                 <a lang="en-US" class="js-anchor" data-anchor="#footer" href="">Contact us</a>
             </li>
         </ul>

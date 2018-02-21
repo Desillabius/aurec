@@ -52,7 +52,7 @@
 <main>
 	<div id="anchor-1" class="box__wrapper grey-bg">
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/consulenza-tecnica.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/consulenza-tecnica.jpg"
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"
@@ -70,13 +70,13 @@
 	<div id="anchor-2" class="box__wrapper">
 		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
-				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/valutazione.svg" alt="Valutazione materiali e screening">
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/valutazione.svg" alt="Valutazione materiali e screening spettrometrico">
 				<h5>VALUTAZIONE MATERIALI <br>E SCREENING SPETTROMETRICO</h5>
 				<p>Gli esperti AU.REC forniscono una valutazione accurata e puntuale del calcolo delle millesimazioni e della caratura dei metalli nobili come argento, oro, platino e palladio contenuti in scarti di lavorazione odontotecnica, protesi dentarie dismesse e materiali di oreficeria.</p>
 			</div>
 		</div>
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/valutazioni-materiali.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/valutazioni-materiali-zoom_v02.jpg" 
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"
@@ -85,7 +85,7 @@
 	</div>
 	<div id="anchor-3" class="box__wrapper grey-bg">
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/recupero-leghe.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/recupero-leghe.jpg" 
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"
@@ -93,7 +93,7 @@
 		</div>
 		<div class="text__wrapper animate-item" data-animation="zoom-in-txt">
 			<div class="text__inner">
-				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/recupero.svg" alt="Recupero leghe e consulenza fiscale">
+				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/recupero.svg" alt="Recupero leghe odontoiatriche e consulenza fiscale">
 				<h5>RECUPERO LEGHE ODONTOIATRICHE <br>E CONSULENZA FISCALE</h5>
 				<p>Il consulente AU.REC offre una valutazione e una quantificazione accurata dei metalli riciclabili tramite fusione e individua un piano di recupero personalizzato.</p>
 			</div>
@@ -108,7 +108,7 @@
 			</div>
 		</div>
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/consulenza-investimenti.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/consulenza-investimenti.jpg" 
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"
@@ -120,7 +120,8 @@
 	<div class="wrapper title__wrapper animate-item" data-animation="zoom-in">
 		<svg class="quotazioni-svg" data-src="<?php echo get_template_directory_uri(); ?>/img/icons/quotazioni.svg" alt="Quotazioni">
 		<h3 class="title-2">QUOTAZIONI</h3>
-		<h4>Scopri le quotazioni dei metalli preziosi in tempo reale.</h4>
+		<!-- <h4>Scopri le quotazioni dei metalli preziosi in tempo reale.</h4> -->
+		<p>Scopri le quotazioni dei metalli preziosi in tempo reale.</p>
 	</div>
 </section>
 <section>
