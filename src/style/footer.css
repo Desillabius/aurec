@@ -8,6 +8,7 @@
 	text-align: center;
 	color: black;
 	line-height: 1.2;
+	margin-top: 40px;
 	@media (--screen-phablet) {
 		padding: 0 10px;
 	}

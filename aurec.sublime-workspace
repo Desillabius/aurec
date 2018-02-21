@@ -108,16 +108,16 @@
 			"file": "src/theme/page-chi-siamo.php",
 			"settings":
 			{
-				"buffer_size": 2007,
+				"buffer_size": 2062,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/theme/img/loghi/Aurec-logo-2.svg",
+			"file": "src/theme/header.php",
 			"settings":
 			{
-				"buffer_size": 6640,
+				"buffer_size": 3700,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -126,16 +126,26 @@
 			"file": "src/style/front-page.css",
 			"settings":
 			{
-				"buffer_size": 4662,
+				"buffer_size": 4857,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/style/variables.css",
+			"file": "src/theme/footer.php",
 			"settings":
 			{
-				"buffer_size": 2581,
+				"buffer_size": 4930,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/style/header.css",
+			"settings":
+			{
+				"buffer_size": 2899,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -143,7 +153,7 @@
 			"file": "src/style/globals.css",
 			"settings":
 			{
-				"buffer_size": 2700,
+				"buffer_size": 2788,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -196,14 +206,19 @@
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style",
-		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme"
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/img",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/img/loghi"
 	],
 	"file_history":
 	[
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/footer.css",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/img/loghi/Aurec-logo.svg",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/img/loghi/Aurec-logo-2.svg",
+		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/img/icons/quotazioni.svg",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/globals.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/page-en.php",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/header.php",
-		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/img/loghi/Aurec-logo.svg",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/shared/cookie-banner.html",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/build/wordpress/wp-includes/general-template.php",
@@ -213,7 +228,6 @@
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/style.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/gulpfile.js",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/variables.css",
-		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/footer.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/header.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/menu.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/_front-page.php",
@@ -232,7 +246,6 @@
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/img/icons/valutazione.svg",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/img/icons/recupero.svg",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/img/icons/investimenti.svg",
-		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/img/icons/quotazioni.svg",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/theme/img/icons/consulenza.svg",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/src/style/fonts.css",
 		"/C/Program Files (x86)/EasyPHP-Devserver-17/eds-www/Aurec-WP/README.md",
@@ -326,8 +339,7 @@
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/src/js/slider-timeline.js",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/routes.php",
 		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/management.html",
-		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/bootstrap.php",
-		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/views/shared/attivita/hero-image.html"
+		"/D/Lavoro/ARC/FCA Bank/FCABank-Holding/app/bootstrap.php"
 	],
 	"find":
 	{
@@ -357,6 +369,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class=\"only-stroke\"",
+			"Aurec-logo",
+			"fill=\"#9B7438\" stroke=\"#9B7438\" ",
+			" fill=\"none\" stroke=\"#9B7438\"",
+			"grey-bg",
 			"text__wrapper",
 			"grey",
 			"secondary",
@@ -505,8 +522,8 @@
 						"selection":
 						[
 							[
-								5062,
-								5062
+								1845,
+								1845
 							]
 						],
 						"settings":
@@ -515,10 +532,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1595.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -527,15 +544,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2007,
+						"buffer_size": 2062,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								843,
-								843
+								691,
+								691
 							]
 						],
 						"settings":
@@ -544,45 +561,44 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/theme/img/loghi/Aurec-logo-2.svg",
+					"file": "src/theme/header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6640,
+						"buffer_size": 3700,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								218,
-								218
+								2618,
+								2618
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1050.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -591,15 +607,19 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4662,
+						"buffer_size": 4857,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4657,
-								4657
+								3889,
+								3889
+							],
+							[
+								3908,
+								3908
 							]
 						],
 						"settings":
@@ -608,56 +628,86 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6095.0,
+						"translation.y": 5166.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "src/style/variables.css",
-					"semi_transient": true,
+					"file": "src/theme/footer.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2581,
+						"buffer_size": 4930,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								82,
-								82
+								334,
+								359
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 600.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "src/style/globals.css",
+					"file": "src/style/header.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2700,
+						"buffer_size": 2899,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2141,
-								2141
+								2537,
+								2537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1875.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/style/globals.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2222,
+								2222
 							]
 						],
 						"settings":
@@ -666,10 +716,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1645.0,
+						"translation.y": 2670.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]

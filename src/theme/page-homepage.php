@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section>
-	<div class="hero__wrapper animate-item" data-animation="zoom-in-hero">
+	<div class="hero__wrapper animate-item animate-item--delay1" data-animation="zoom-in-hero">
 		<!-- <div class="hero__image lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/hero/AUREC-precious-metals.jpg" alt="Au.Rec - Metalli Preziosi" 
 			data-start="transform: translateY(0px);"
 			data-500-start="transform: translateY(150px);"
@@ -10,23 +10,23 @@
 </section>
 <section>
 	<div class="wrapper title__wrapper">
-		<h2 class="gold-title animate-item" data-animation="zoom-in">RECUPERA, RICICLA, TRASFORMA.</h2>
-		<p class="subtitle animate-item" data-animation="zoom-in">AU.REC, in collaborazione con BM Valenza, si occupa del recupero e della raffinazione di metalli preziosi. <br>
+		<h2 class="gold-title animate-item animate-item--delay2" data-animation="zoom-in">RECUPERA, RICICLA, TRASFORMA.</h2>
+		<p class="subtitle animate-item animate-item--delay3" data-animation="zoom-in">AU.REC, in collaborazione con BM Valenza, si occupa del recupero e della raffinazione di metalli preziosi. <br>
 		Un progetto nato per mettere in contatto i professionisti del settore dentistico e odontotecnico con i banchi di fusione della città di Valenza, garantendo sempre una valutazione precisa e trasparente.</p>
 		<div class="anchors__wrapper">
-			<div class="anchor js-anchor animate-item" data-animation="zoom-in-txt" data-anchor="#anchor-1">
+			<div class="anchor js-anchor animate-item animate-item--delay4" data-animation="zoom-in-txt" data-anchor="#anchor-1">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/consulenza.svg" alt="Consulenza tecnica">
 				<p class="anchor__text">Consulenza tecnica</p>
 			</div>
-			<div class="anchor js-anchor animate-item" data-animation="zoom-in-txt" data-anchor="#anchor-2">
+			<div class="anchor js-anchor animate-item animate-item--delay5" data-animation="zoom-in-txt" data-anchor="#anchor-2">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/valutazione.svg" alt="Valutazione materiali e screening">
 				<p class="anchor__text">Valutazione materiali e screening spettrometrico</p>
 			</div>
-			<div class="anchor js-anchor animate-item" data-animation="zoom-in-txt" data-anchor="#anchor-3">
+			<div class="anchor js-anchor animate-item animate-item--delay6" data-animation="zoom-in-txt" data-anchor="#anchor-3">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/recupero.svg" alt="Recupero leghe e consulenza fiscale">
 				<p class="anchor__text">Recupero leghe odontoiatriche e consulenza fiscale</p>
 			</div>
-			<div class="anchor js-anchor animate-item" data-animation="zoom-in-txt" data-anchor="#anchor-4">
+			<div class="anchor js-anchor animate-item animate-item--delay7" data-animation="zoom-in-txt" data-anchor="#anchor-4">
 				<svg data-src="<?php echo get_template_directory_uri(); ?>/img/icons/investimenti.svg" alt="Consulenza su investimenti in metallo e diamanti">
 				<p class="anchor__text">Consulenza su investimenti in metallo e diamanti</p>
 			</div>

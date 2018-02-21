@@ -33,7 +33,7 @@
 		<a class="cta" id="js-accept-cookie" href=""><span>OK</span></a>
 	</div>
 </div> -->
-<header id="header" class="header">
+<header id="header" class="header animate-item" data-animation="come-in-top-menu">
 	<div class="change-lang">
 		<a href="<?php echo home_url(); ?>/homepage" title="IT" hreflang="it-IT" >IT</a>
 		<div class="lang-divider"></div>

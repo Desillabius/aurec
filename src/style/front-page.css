@@ -158,12 +158,15 @@ a[href^="mailto:"] {
 }
 .box__wrapper {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: row;
+	/*justify-content: center;*/
+	/*align-items: center;*/
 	@media (--screen-phablet) {
 		flex-wrap: wrap;
 	}
 	& .img__wrapper {
+		display: flex;
+		align-items: center;
 		position: relative;
 		min-height: 70vh;
 		overflow: hidden;
@@ -188,19 +191,21 @@ a[href^="mailto:"] {
 		perspective: 1000;
 	}
 	& .text__wrapper {
+		display: flex;
+		align-items: center;
 		width: 50%;
 		@media (--screen-phablet) {
 			width: 100%;
 			order: 2;
 		}
 	}
-	& .text__wrapper--huge {
+	/*& .text__wrapper--huge {
 		width: 50%;
 		@media (--screen-phablet) {
 			width: 100%;
 			order: 1;
 		}
-	}
+	}*/
 	& .text__inner {
 		width: 80%;
 		max-width: 550px;
@@ -229,8 +234,12 @@ a[href^="mailto:"] {
 		width: 80%;
 		max-width: 550px;
 		padding: 20px;
-		font-size: 5vw;
+		/*font-size: 5vw;*/
+		font-size: 85px;
+		line-height: 1;
 		color: rgba(255,255,255,.5);
+		position: relative;
+		z-index: 1;
 		/*margin: auto;*/
 		/*text-align: center;*/
 		@media (--screen-medium) {
@@ -240,6 +249,9 @@ a[href^="mailto:"] {
 			font-size: 40px;
 			width: 100%;
 			padding: 40px 20px;
+			& br {
+				display: none;
+			}
 		}
 	}
 }
@@ -269,7 +281,7 @@ a[href^="mailto:"] {
 
 .logo-top-page {
 	width: 320px;
-	height: 210px;
+	/*height: 210px;*/
 	margin: 40px auto;
 	& .fill-and-stroke {
 		fill: #9B7438;
@@ -281,6 +293,6 @@ a[href^="mailto:"] {
 	}
 	@media (--screen-phablet) {
 		width: 180px;
-		height: 130px;
+		/*height: 130px;*/
 	}
 }
