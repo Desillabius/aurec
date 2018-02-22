@@ -44,7 +44,7 @@
         <div class='bar2'></div>
         <div class='bar3'></div>
     </div>
-	<!-- <?php wp_nav_menu( array( 'container' => 'nav', 'container_class' => 'nav-wrapper__man' ) ); ?> -->
+	<!-- <?php wp_nav_menu( array( 'container' => 'nav', 'container_class' => 'nav-wrapper__main' ) ); ?> -->
 	<nav id="main-menu" class="nav-wrapper__main" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
         <ul>
         	<li itemprop="name">

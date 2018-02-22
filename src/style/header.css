@@ -7,6 +7,9 @@
 	z-index: 100;
 	transition: all .5s ease;
 	height: 60px;
+    @media (--screen-phablet) {
+        background-color: rgba(0,0,0,.4);
+    }
 	& .navbar-toggle {
 		cursor: pointer;
 	    position: absolute;
@@ -51,7 +54,6 @@
     top: 60px;
     right: 0;
     z-index: 2;
-    /*font-weight: bold;*/
     text-transform: uppercase;
     width: 100%;
     max-width: 200px;
@@ -60,15 +62,12 @@
     display: flex;
     flex-direction: column;
     background-color: rgba(0,0,0,.2);
-    /*box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1);*/
     transition: opacity .5s ease-in-out, transform .5s ease-in-out;
     transform: scale(1.05);
     opacity: 0;
     @media (--screen-phablet) {
         text-align: center;
         max-width: initial;
-        top: 0;
-    	bottom: 50%;
         left: 0;
         background-color: rgba(0,0,0,.4);
     }
@@ -79,7 +78,6 @@
     }
     & ul {
         list-style: none;
-        /*margin-top: 60px;*/
         margin-bottom: 20px;
         padding-left: 0;
         display: flex;
