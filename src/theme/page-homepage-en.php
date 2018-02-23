@@ -75,7 +75,7 @@
 			</div>
 		</div>
 		<div class="img__wrapper animate-item" data-animation="zoom-in">
-			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/valutazioni-materiali.jpg" alt="Consulenza tecnica" 
+			<div class="box__img lazy" data-src="<?php echo get_template_directory_uri(); ?>/img/servizi/valutazioni-materiali-zoom_v02.jpg" alt="Consulenza tecnica" 
 			data--200-top="transform: translateY(60px);"
 			data-center="transform: translateY(0px);"
 			data-200-bottom="transform: translateY(-60px);"

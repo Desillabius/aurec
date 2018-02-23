@@ -25,7 +25,7 @@
 			<a href="https://goo.gl/maps/72UDGKcKM2r" title="" target="_blank" rel="noopener noreferrer">
 				<address>
 					<span>Via Vittorio Emanuele II, 33 </span><br>
-					<span>10023 Chieri - Torino - Italia</span>
+					<span>10023 Chieri - Torino - Italy</span>
 				</address>
 			</a>
 			<p>Tel. 
@@ -55,8 +55,8 @@
 			</div>
 		</div>
 		<div class="footer__column" lang="en-US">
-			<h5>CONSULENZA ED INVESTIMENTI</h5>
-			<p>Contatta un tecnico AU.REC <br>per un appuntamento gratuito <br>e senza impegno.</p>
+			<h5>INVESTMENTS AND CONSULTING</h5>
+			<p>Contact one of our representatives <br>for a free consultation.</p>
 			<div>
 				<p>DANILO PALMIERO <br>
 				Tel. <a href="tel:+393497815204" title="Danilo Palmiero">+ 39 3497815204</a>

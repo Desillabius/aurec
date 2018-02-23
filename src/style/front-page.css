@@ -1,24 +1,17 @@
 .hero__wrapper {
 	position: relative;
-	/*min-height: 50vh;*/
 	min-height: 55vh;
 	overflow: hidden;
-	@media (--screen-phablet) {
-		min-height: 50vh;
-	}
 }
 .hero__image{
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
+	bottom: -60px;
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 38%;
-    tranform: translateZ(0);
-	backface-visibility: hidden;
-	perspective: 1000;
+    background-position: 50%;
 }
 .wrapper {
 	width: 100%;
@@ -77,6 +70,10 @@
 	@media (--screen-phablet) {
 		padding: 10px;
 		width: 50%;
+	}
+	@media (--screen-mobile) {
+		padding: 10px;
+		width: 100%;
 	}
 	& svg {
 		width: 70px;
@@ -284,7 +281,6 @@ a[href^="mailto:"] {
 
 .logo-top-page {
 	width: 320px;
-	/*height: 210px;*/
 	margin: 90px auto 40px;
 	& .fill-and-stroke {
 		fill: #9B7438;
@@ -295,7 +291,10 @@ a[href^="mailto:"] {
 		stroke: #9B7438;
 	}
 	@media (--screen-phablet) {
+		margin: 70px auto 20px;
+		width: 250px;
+	}
+	@media (--screen-mobile) {
 		width: 180px;
-		/*height: 130px;*/
 	}
 }
