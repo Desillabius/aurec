@@ -13,12 +13,14 @@ Tags: responsive, clean, minimal, modern, documentation
 @import 'normalize';
 @import 'variables';
 @import 'fonts';
+@import 'cookies';
 @import 'animations';
 @import 'globals';
 @import 'header';
 @import 'sidebar';
 @import 'front-page';
 @import 'footer';
+@import '404';
 /*@import 'nprogress';*/
 /*@import 'button';*/
 /*@import 'inputs';*/

@@ -1,0 +1,43 @@
+.cookie-disclaimer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2000;
+    padding: 0;
+    background: white;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.05);
+    transform: translateY(0);
+    opacity: 1;
+    transition: all .6s ease-in-out;
+    &.hidden {
+        display: none;
+    }
+    &.hide-now {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    & .wrapper--cookie {
+        width: 90%;
+        max-width: 1024px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        @media (--screen-phablet) {
+            flex-wrap: wrap;
+        }
+        & .cookie-disclaimer__copy {
+            display: block;
+            padding: 0 20px;
+            @media (--screen-phablet) {
+            	padding: 20px;
+            }
+        }
+        .informativa {
+            position: relative;
+        }
+    }
+}
