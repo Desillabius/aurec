@@ -81,6 +81,10 @@
 		</div>
 	</section>
 
+	<section class="footer__inner footer__inner--last">
+		<p>P.IVA: 10627060014 - <a href="<?php echo home_url(); ?>/cookie-policy" title="">Cookie Policy</a></p>
+	</section>
+
 </footer>
 
 <!-- AU.REC schema -->

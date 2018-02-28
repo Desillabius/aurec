@@ -24,6 +24,10 @@
 		@media (--screen-phablet) {
 			flex-wrap: wrap;
 		}
+		&.footer__inner--last {
+			margin-top: 20px;
+			border-top: 1px solid var(--background-dividers);
+		}
 	}
 	& .footer__column {
 		width: 33.33%;

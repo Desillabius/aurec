@@ -14,13 +14,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php wp_head(); ?>
-	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo home_url(); ?>/img/favicon/apple-touch-icon.png?v=XBzAMKAvNe">
-	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo home_url(); ?>/img/favicon/favicon-32x32.png?v=XBzAMKAvNe">
-	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo home_url(); ?>/img/favicon/favicon-16x16.png?v=XBzAMKAvNe">
-	<link rel="manifest" href="<?php echo home_url(); ?>/img/favicon/manifest.json?v=XBzAMKAvNe">
-	<link rel="mask-icon" href="<?php echo home_url(); ?>/img/favicon/safari-pinned-tab.svg?v=XBzAMKAvNe" color="#5bbad5">
-	<link rel="shortcut icon" href="<?php echo home_url(); ?>/img/favicon/favicon.ico?v=XBzAMKAvNe">
-	<meta name="msapplication-config" content="<?php echo home_url(); ?>/img/favicon/browserconfig.xml?v=XBzAMKAvNe">
+	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo home_url(); ?>/wp-content/themes/aurec/img/favicon/apple-touch-icon.png?v=XBzAMKAvNe">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo home_url(); ?>/wp-content/themes/aurec/img/favicon/favicon-32x32.png?v=XBzAMKAvNe">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo home_url(); ?>/wp-content/themes/aurec/img/favicon/favicon-16x16.png?v=XBzAMKAvNe">
+	<link rel="manifest" href="<?php echo home_url(); ?>/wp-content/themes/aurec/img/favicon/manifest.json?v=XBzAMKAvNe">
+	<link rel="mask-icon" href="<?php echo home_url(); ?>/wp-content/themes/aurec/img/favicon/safari-pinned-tab.svg?v=XBzAMKAvNe" color="#5bbad5">
+	<link rel="shortcut icon" href="<?php echo home_url(); ?>/wp-content/themes/aurec/img/favicon/favicon.ico?v=XBzAMKAvNe">
+	<meta name="msapplication-config" content="<?php echo home_url(); ?>/wp-content/themes/aurec/img/favicon/browserconfig.xml?v=XBzAMKAvNe">
 	<meta name="theme-color" content="#ffffff">
 </head>
 
@@ -28,13 +28,14 @@
 <div class="cookie-disclaimer hide-now" id="cookie-disclaimer">
 	<div class="wrapper--cookie">
 		<p class="cookie-disclaimer__copy" lang="it-IT">
-			Utilizziamo i cookies anche di terze (impostati da un sito web diverso da quello visitato) per offrirti una migliore esperienza di navigazione sul nostro sito. Chiudendo questo banner o continuando la navigazione sul sito, accetti l'utilizzo di cookies. 
+			Utilizziamo i cookies anche di terze (impostati da un sito web diverso da quello visitato) per offrirti una migliore esperienza di navigazione sul nostro sito. Chiudendo questo banner o continuando la navigazione sul sito, accetti l'utilizzo di cookies. <br>
+			Per maggiori informazioni, per modificare le tue preferenze o negare il consenso a tutti o ad alcuni cookie visita la  <a title="Cookie policy" class="underline-link" href="/cookie-policy" target="_blank" rel="noopener noreferrer">Cookie policy</a>.
 		</p>
 		<p class="cookie-disclaimer__copy" lang="en-US">
-			Utilizziamo i cookies anche di terze (impostati da un sito web diverso da quello visitato) per offrirti una migliore esperienza di navigazione sul nostro sito. Chiudendo questo banner o continuando la navigazione sul sito, accetti l'utilizzo di cookies. 
+			Utilizziamo i cookies anche di terze (impostati da un sito web diverso da quello visitato) per offrirti una migliore esperienza di navigazione sul nostro sito. Chiudendo questo banner o continuando la navigazione sul sito, accetti l'utilizzo di cookies. <br>
+			Per maggiori informazioni, per modificare le tue preferenze o negare il consenso a tutti o ad alcuni cookie visita la  <a title="Cookie policy" class="underline-link" href="/cookie-policy" target="_blank" rel="noopener noreferrer">Cookie policy</a>.
+			</p>
 		</p>
-		<!-- <p>Per maggiori informazioni, per modificare le tue preferenze o negare il consenso a tutti o ad alcuni cookie visita la  <a title="View our privacy policy page" class="underline-link" href="/cookie-policy" target="_blank" rel="noopener noreferrer">Cookie policy</a>.
-		</p> -->
 		<a class="cta" id="js-accept-cookie" href=""><span>OK</span></a>
 	</div>
 </div>

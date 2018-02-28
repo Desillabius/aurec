@@ -1,5 +1,5 @@
 * {
-	outline: none;
+	/*outline: none;*/
 	box-sizing: border-box;
 
 	&::selection {
@@ -33,7 +33,7 @@ a, button {
 	}
 }
 
-a[href^="mailto:"] {
+a[href^="mailto:"], .underline-link {
 	text-decoration: underline;
 }
 
@@ -110,6 +110,13 @@ h5 {
 	}
 }
 
+.spacer {
+	height: 100px;
+	@media (--screen-phablet) {
+		height: 60px;
+	}
+}
+
 .text-grey {
 	color: var(--primary-color);
 }
@@ -132,6 +139,13 @@ h5 {
 
 .grey-bg-4 {
 	background-color: #F7F3F0;
+}
+
+.decimal-list {
+	list-style-type: decimal;
+	& li {
+		margin-bottom: 20px;
+	}
 }
 
 .cf {
