@@ -29,11 +29,11 @@
 	<div class="wrapper--cookie">
 		<p class="cookie-disclaimer__copy" lang="it-IT">
 			Utilizziamo i cookies anche di terze (impostati da un sito web diverso da quello visitato) per offrirti una migliore esperienza di navigazione sul nostro sito. Chiudendo questo banner o continuando la navigazione sul sito, accetti l'utilizzo di cookies. <br>
-			Per maggiori informazioni, per modificare le tue preferenze o negare il consenso a tutti o ad alcuni cookie visita la  <a title="Cookie policy" class="underline-link" href="/cookie-policy" target="_blank" rel="noopener noreferrer">Cookie policy</a>.
+			Per maggiori informazioni, per modificare le tue preferenze o negare il consenso a tutti o ad alcuni cookie visita la  <a title="Cookie policy" class="underline-link" href="<?php echo home_url(); ?>/cookie-policy">Cookie policy</a>.
 		</p>
 		<p class="cookie-disclaimer__copy" lang="en-US">
 			Utilizziamo i cookies anche di terze (impostati da un sito web diverso da quello visitato) per offrirti una migliore esperienza di navigazione sul nostro sito. Chiudendo questo banner o continuando la navigazione sul sito, accetti l'utilizzo di cookies. <br>
-			Per maggiori informazioni, per modificare le tue preferenze o negare il consenso a tutti o ad alcuni cookie visita la  <a title="Cookie policy" class="underline-link" href="/cookie-policy" target="_blank" rel="noopener noreferrer">Cookie policy</a>.
+			Per maggiori informazioni, per modificare le tue preferenze o negare il consenso a tutti o ad alcuni cookie visita la  <a title="Cookie policy" class="underline-link" href="<?php echo home_url(); ?>/cookie-policy">Cookie policy</a>.
 			</p>
 		</p>
 		<a class="cta" id="js-accept-cookie" href=""><span>OK</span></a>

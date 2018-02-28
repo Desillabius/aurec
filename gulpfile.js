@@ -57,13 +57,11 @@ var headerJS = [
 ];
 var footerJS = [
 	'src/js/jquery/**',
-	// 'node_modules/nprogress/nprogress.js',
 	'src/js/libs/**',
 	'src/js/utils.js',
 	'src/js/init-lazy.js',
 	'src/js/init-skrollr.js',
 	'src/js/init-svg.js',
-	'src/js/init-highchart.js',
 	// 'src/js/init-trading-view.js',
 	'src/js/animations.js',
 	'src/js/cookies.js',

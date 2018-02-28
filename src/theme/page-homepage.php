@@ -132,7 +132,7 @@
 	<div class="wrapper wrapper--chart animate-item" data-animation="zoom-in">
 
 
-		<!-- <script type="text/javascript" src="//oro.bullionvault.it/chart/bullionvaultchart.js" ></script>
+		<script type="text/javascript" src="//oro.bullionvault.it/chart/bullionvaultchart.js" ></script>
 		<script type="text/javascript" >
 			var options = {
 				bullion: 'gold',
@@ -150,13 +150,13 @@
 				exportButton: false
 			};
 			var chartBV = new BullionVaultChart(options, 'bullionvaultchart-IT');
-		</script> -->
+		</script>
 		<!-- <p class="trading-desc">Prezzo al kilo e all'oncia in Euro</p> -->
-		<!-- <div class="bullionvaultchart" id="bullionvaultchart-IT"></div> -->
+		<div class="bullionvaultchart" id="bullionvaultchart-IT"></div>
 
 
-		<script src="https://market-summary.goldmoney.com/xau.js?v=1495048506188"></script>
-		<div id="goldmoney-market-summary"></div>
+		<!-- <script src="https://market-summary.goldmoney.com/xau.js?v=1495048506188"></script>
+		<div id="goldmoney-market-summary"></div> -->
 
 	</div>
 </section>

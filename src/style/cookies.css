@@ -21,7 +21,7 @@
     & .wrapper--cookie {
         width: 90%;
         max-width: 1024px;
-        margin: auto;
+        margin: 20px auto;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -32,9 +32,9 @@
         & .cookie-disclaimer__copy {
             display: block;
             padding: 0 20px;
-            @media (--screen-phablet) {
+            /*@media (--screen-phablet) {
             	padding: 20px;
-            }
+            }*/
         }
         .informativa {
             position: relative;
