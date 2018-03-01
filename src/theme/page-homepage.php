@@ -127,12 +127,55 @@
 <section>
 
 	<div class="wrapper animate-item" data-animation="zoom-in">
-		<h4>Grafico 1</h4>
-		<p class="trading-desc">Prezzi per oncia in Euro</p>
-		<div id="trading-view-it"></div>
+		<p class="trading-desc">Prezzi per €/grammo</p>
+
+		<!-- TradingView Widget BEGIN -->
+		<div class="tradingview-widget-container">
+		 	<div id="tv-medium-widget-it"></div>
+		 	<div class="tradingview-widget-copyright">
+				<span class="blue-text">
+					<a href="https://it.tradingview.com/symbols/XAUEUR/31.1034768/" rel="noopener" target="_blank"><span class="blue-text">Oro</span></a>, 
+					<a href="https://it.tradingview.com/symbols/XAGEUR/31.1034768/" rel="noopener" target="_blank"><span class="blue-text">Argento</span></a>, 
+					<a href="https://it.tradingview.com/symbols/XPTEUR/31.1034768/" rel="noopener" target="_blank"><span class="blue-text">Platino</span></a>,
+					<a href="https://it.tradingview.com/symbols/XPDEUR/31.1034768/" rel="noopener" target="_blank"><span class="blue-text">Palladio</span></a>
+				</span> da TradingView
+			  	<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+				<script type="text/javascript">
+					new TradingView.MediumWidget({
+					"container_id": "tv-medium-widget-it",
+					"symbols": [
+						[
+							"Oro",
+							"FX_IDC:XAUEUR/31.1034768|1m"
+						],
+						[
+							"Argento",
+							"FX_IDC:XAGEUR/31.1034768|1m"
+						],
+						[
+							"Platino",
+							"FX_IDC:XPTEUR/31.1034768|1m"
+						],
+						[
+							"Palladio",
+							"FX_IDC:XPDEUR/31.1034768|1m"
+						]
+					],
+					"greyText": " ",
+					"gridLineColor": "#e9e9ea",
+					"fontColor": "#83888D",
+					"underLineColor": "#dbeffb",
+					"trendLineColor": "#4bafe9",
+					"width": "100%",
+					"height": "500px",
+					"locale": "it"
+					});
+				</script>
+		 	</div>
+		</div>
 	</div>
 
-	<div class="wrapper wrapper--chart animate-item" data-animation="zoom-in">
+	<!-- <div class="wrapper wrapper--chart animate-item" data-animation="zoom-in">
 		<h4>Grafico 2</h4>
 		<script type="text/javascript" src="//oro.bullionvault.it/chart/bullionvaultchart.js" ></script>
 		<script type="text/javascript" >
@@ -172,7 +215,7 @@
 		<script type="text/javascript" src="//bullion-rates.com/ScriptWidget.js?sid=CD0001CPK&stk=-0VS9PJ3146" charset="utf-8"></script>
 		<a class="single-chart" href="//it.bullion-rates.com/palladium/EUR/Daily-30-chart.htm" id="brtChart_CD0001CPL" target="_blank"></a>
 		<script type="text/javascript" src="//bullion-rates.com/ScriptWidget.js?sid=CD0001CPL&stk=-0VS9PI5149" charset="utf-8"></script>
-	</div>
+	</div> -->
 
 </section>
 

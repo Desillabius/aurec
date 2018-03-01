@@ -123,32 +123,53 @@
 	</div>
 </section>
 <section>
-	<!-- <div class="wrapper animate-item" data-animation="zoom-in">
-		<p class="trading-desc">Prezzi per oncia in Euro</p>
-		<div id="trading-view-it"></div>
-	</div> -->
-	<div class="wrapper wrapper--chart animate-item" data-animation="zoom-in">
-		<script type="text/javascript" src="//www.bullionvault.com/chart/bullionvaultchart.js" ></script>
-		<script type="text/javascript" >
-			var options = {
-				bullion: 'gold',
-				currency: 'EUR',
-				timeframe: '1m',
-				chartType: 'line',
-				miniChartModeAxis : 'both',
-				containerDefinedSize: true,
-				miniChartMode: false,
-				displayLatestPriceLine: false,
-				switchBullion: true,
-				switchCurrency: true,
-				switchTimeframe: true,
-				switchChartType: false,
-				exportButton: false
-			};
-			var chartBV = new BullionVaultChart(options, 'bullionvaultchart-EN');
-		</script>
-		<!-- <p class="trading-desc">Prezzo al kilo e all'oncia in Euro</p> -->
-		<div class="bullionvaultchart" id="bullionvaultchart-EN"></div>
+	<div class="wrapper animate-item" data-animation="zoom-in">
+		<p class="trading-desc">€/gram prices</p>
+		
+		<!-- TradingView Widget BEGIN -->
+		<div class="tradingview-widget-container">
+		 	<div id="tv-medium-widget-en"></div>
+		 	<div class="tradingview-widget-copyright">
+				<span class="blue-text">
+					<a href="https://www.tradingview.com/symbols/XAUEUR/31.1034768/" rel="noopener" target="_blank"><span class="blue-text">Gold</span></a>, 
+					<a href="https://www.tradingview.com/symbols/XAGEUR/31.1034768/" rel="noopener" target="_blank"><span class="blue-text">Silver</span></a>, 
+					<a href="https://www.tradingview.com/symbols/XPTEUR/31.1034768/" rel="noopener" target="_blank"><span class="blue-text">Platinum</span></a>,
+					<a href="https://www.tradingview.com/symbols/XPDEUR/31.1034768/" rel="noopener" target="_blank"><span class="blue-text">Palladium</span></a>
+				</span> by TradingView
+			  	<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+				<script type="text/javascript">
+					new TradingView.MediumWidget({
+					"container_id": "tv-medium-widget-en",
+					"symbols": [
+						[
+							"Gold",
+							"FX_IDC:XAUEUR/31.1034768|1m"
+						],
+						[
+							"Silver",
+							"FX_IDC:XAGEUR/31.1034768|1m"
+						],
+						[
+							"Platinum",
+							"FX_IDC:XPTEUR/31.1034768|1m"
+						],
+						[
+							"Palladium",
+							"FX_IDC:XPDEUR/31.1034768|1m"
+						]
+					],
+					"greyText": " ",
+					"gridLineColor": "#e9e9ea",
+					"fontColor": "#83888D",
+					"underLineColor": "#dbeffb",
+					"trendLineColor": "#4bafe9",
+					"width": "100%",
+					"height": "500px",
+					"locale": "en"
+					});
+				</script>
+		 	</div>
+		</div>
 	</div>
 </section>
 

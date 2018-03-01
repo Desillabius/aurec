@@ -275,24 +275,17 @@ a[href^="mailto:"] {
 }
 .trading-desc {
 	text-align: center;
-	/*border: 1px solid #dde1e6;*/
-	border: 2px solid #f4f4f4;
-	border-bottom: none;
 	margin: 0;
-	padding: 10px 0;
-	/*@media (--screen-phablet) {
-		width: 320px;
-	}*/
+	padding: 10px 0 20px;
 }
 
-.bullionvaultchart {
+/*.bullionvaultchart {
 	height: 500px;
 	width: 100%;
 	@media (--screen-phablet) {
 		height: 400px;
-		/*width: 320px;*/
 	}
-}
+}*/
 
 .logo-top-page {
 	width: 320px;
