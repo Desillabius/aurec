@@ -62,7 +62,7 @@ var footerJS = [
 	'src/js/init-lazy.js',
 	'src/js/init-skrollr.js',
 	'src/js/init-svg.js',
-	// 'src/js/init-trading-view.js',
+	'src/js/init-trading-view.js',
 	'src/js/animations.js',
 	'src/js/cookies.js',
 	'src/js/menu-mobile.js',
