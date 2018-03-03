@@ -18,12 +18,27 @@
 	max-width: 1366px;
 	margin: auto;
 	padding: 30px 20px;
+	@media (--screen-phablet) {
+		padding: 20px 10px;
+	}
+}
+.wrapper--widget {
+	width: 100%;
+	max-width: 1366px;
+	margin: auto;
+	padding: 30px 20px;
+	@media (--screen-phablet) {
+		padding: 20px 0;
+	}
 }
 .wrapper-text {
 	width: 100%;
 	max-width: 1024px;
 	margin: auto;
 	padding: 30px 20px;
+	@media (--screen-phablet) {
+		padding: 20px 10px;
+	}
 }
 .wrapper--chart {
 	text-align: center;
@@ -58,6 +73,9 @@
 	line-height: var(--medium-line-height);
 	max-width: 80%;
 	margin: 1em auto;
+	@media (--screen-phablet) {
+		max-width: 95%;
+	}
 }
 
 .gold-subtitle {
@@ -272,6 +290,10 @@ a[href^="mailto:"] {
 }
 .title-2 {
 	letter-spacing: 2px;
+}
+.tradingview-widget-container {
+	border-bottom: 1px solid #dde1e6;
+	box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.15);
 }
 .trading-desc {
 	text-align: center;

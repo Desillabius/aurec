@@ -126,18 +126,18 @@
 </section>
 <section>
 
-	<div class="wrapper animate-item" data-animation="zoom-in">
+	<div class="wrapper--widget animate-item" data-animation="zoom-in">
 		<p class="trading-desc">Prezzi per €/grammo</p>
 
 		<!-- TradingView Widget BEGIN -->
 		<div class="tradingview-widget-container">
 		 	<div id="tv-medium-widget-it"></div>
 		 	<div class="tradingview-widget-copyright">
-				<span class="blue-text">
-					<a href="https://it.tradingview.com/symbols/XAUEUR/31.1034768/" rel="noopener" target="_blank"><span class="blue-text">Oro</span></a>, 
-					<a href="https://it.tradingview.com/symbols/XAGEUR/31.1034768/" rel="noopener" target="_blank"><span class="blue-text">Argento</span></a>, 
-					<a href="https://it.tradingview.com/symbols/XPTEUR/31.1034768/" rel="noopener" target="_blank"><span class="blue-text">Platino</span></a>,
-					<a href="https://it.tradingview.com/symbols/XPDEUR/31.1034768/" rel="noopener" target="_blank"><span class="blue-text">Palladio</span></a>
+				<span">
+					<a style="text-decoration: underline!important;" href="https://it.tradingview.com/symbols/XAUEUR/31.1034768/" rel="noopener" target="_blank">Oro</a>, 
+					<a style="text-decoration: underline!important;" href="https://it.tradingview.com/symbols/XAGEUR/31.1034768/" rel="noopener" target="_blank">Argento</a>, 
+					<a style="text-decoration: underline!important;" href="https://it.tradingview.com/symbols/XPTEUR/31.1034768/" rel="noopener" target="_blank">Platino</a>,
+					<a style="text-decoration: underline!important;" href="https://it.tradingview.com/symbols/XPDEUR/31.1034768/" rel="noopener" target="_blank">Palladio</a>
 				</span> da TradingView
 			  	<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
 				<script type="text/javascript">
@@ -146,26 +146,26 @@
 					"symbols": [
 						[
 							"Oro",
-							"FX_IDC:XAUEUR/31.1034768|1m"
+							"FX_IDC:XAUEUR/31.1034768|1y"
 						],
 						[
 							"Argento",
-							"FX_IDC:XAGEUR/31.1034768|1m"
+							"FX_IDC:XAGEUR/31.1034768|1y"
 						],
 						[
 							"Platino",
-							"FX_IDC:XPTEUR/31.1034768|1m"
+							"FX_IDC:XPTEUR/31.1034768|1y"
 						],
 						[
 							"Palladio",
-							"FX_IDC:XPDEUR/31.1034768|1m"
+							"FX_IDC:XPDEUR/31.1034768|1y"
 						]
 					],
 					"greyText": " ",
 					"gridLineColor": "#e9e9ea",
-					"fontColor": "#83888D",
-					"underLineColor": "#dbeffb",
-					"trendLineColor": "#4bafe9",
+					"fontColor": "#000000",
+					"underLineColor": "#EDEAE5",
+					"trendLineColor": "#836A4D",
 					"width": "100%",
 					"height": "500px",
 					"locale": "it"

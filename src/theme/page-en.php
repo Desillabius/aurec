@@ -124,7 +124,7 @@
 	</div>
 </section>
 <section>
-	<div class="wrapper animate-item" data-animation="zoom-in">
+	<div class="wrapper--widget animate-item" data-animation="zoom-in">
 		<p class="trading-desc">€/gram prices</p>
 		
 		<!-- TradingView Widget BEGIN -->
@@ -144,26 +144,26 @@
 					"symbols": [
 						[
 							"Gold",
-							"FX_IDC:XAUEUR/31.1034768|1m"
+							"FX_IDC:XAUEUR/31.1034768|1y"
 						],
 						[
 							"Silver",
-							"FX_IDC:XAGEUR/31.1034768|1m"
+							"FX_IDC:XAGEUR/31.1034768|1y"
 						],
 						[
 							"Platinum",
-							"FX_IDC:XPTEUR/31.1034768|1m"
+							"FX_IDC:XPTEUR/31.1034768|1y"
 						],
 						[
 							"Palladium",
-							"FX_IDC:XPDEUR/31.1034768|1m"
+							"FX_IDC:XPDEUR/31.1034768|1y"
 						]
 					],
 					"greyText": " ",
 					"gridLineColor": "#e9e9ea",
-					"fontColor": "#83888D",
-					"underLineColor": "#dbeffb",
-					"trendLineColor": "#4bafe9",
+					"fontColor": "#000000",
+					"underLineColor": "#EDEAE5",
+					"trendLineColor": "#836A4D",
 					"width": "100%",
 					"height": "500px",
 					"locale": "en"
