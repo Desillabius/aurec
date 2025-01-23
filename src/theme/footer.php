@@ -12,7 +12,7 @@
 				</address>
 			</a>
 			<p>Tel. 
-				<a href="tel:+3901311826242" title="Numero Au.Rec">+39 01311826242</a>
+				<a href="tel:+390116983485" title="Numero Au.Rec">+39 0116983485</a>
 				<br>
 				<a href="mailto:info@aurec.it" title="info@aurec.it">info@aurec.it</a>
 				<br>
@@ -29,7 +29,7 @@
 				</address>
 			</a>
 			<p>Tel. 
-				<a href="tel:+3901311826242" title="Phone number Au.Rec">+39 01311826242</a>
+				<a href="tel:+390116983485" title="Phone number Au.Rec">+39 0116983485</a>
 				<br>
 				<a href="mailto:info@aurec.it" title="info@aurec.it">info@aurec.it</a>
 				<br>
@@ -102,7 +102,7 @@
 		    "addressRegion": "Italia",
 		    "postalCode": "10023"
 		},
-		"telephone": "+3901311826242",
+		"telephone": "+390116983485",
 		"contactPoint": [{
 	    	"@type": "ContactPoint",
 			"email": "mailto:info@aurec.it",

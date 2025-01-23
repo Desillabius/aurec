@@ -128,7 +128,7 @@
 		<div id="trading-view-it"></div>
 	</div> -->
 	<div class="wrapper wrapper--chart animate-item" data-animation="zoom-in">
-		<script type="text/javascript" src="//www.bullionvault.com/chart/bullionvaultchart.js" ></script>
+		<script type="text/javascript" src="https://www.bullionvault.com/chart/bullionvaultchart.js?v=1"></script>
 		<script type="text/javascript" >
 			var options = {
 				bullion: 'gold',
